@@ -1,0 +1,1580 @@
+{
+  "baseline": {
+    "count": 30,
+    "exact_accuracy": 1.0,
+    "field_accuracy": 1.0,
+    "json_object_rate": 1.0,
+    "mean_seconds": 0.4156333333333333,
+    "records": [
+      {
+        "id": "test_0_00",
+        "text": "由成都启程的张三将在2026-11-01于杭州参加会议，本次预算1500元。",
+        "expected": {
+          "person": "张三",
+          "date": "2026-11-01",
+          "location": "杭州",
+          "event": "参加会议",
+          "budget": 1500
+        },
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":\"2026-11-01\",\"location\":\"杭州\",\"event\":\"参加会议\",\"budget\":1500}",
+          "parsed": {
+            "person": "张三",
+            "date": "2026-11-01",
+            "location": "杭州",
+            "event": "参加会议",
+            "budget": 1500
+          },
+          "seconds": 0.542,
+          "tokens": 82,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_01",
+        "text": "由成都启程的李四将在2026-11-02于南京参加培训，本次预算1600元。",
+        "expected": {
+          "person": "李四",
+          "date": "2026-11-02",
+          "location": "南京",
+          "event": "参加培训",
+          "budget": 1600
+        },
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":\"2026-11-02\",\"location\":\"南京\",\"event\":\"参加培训\",\"budget\":1600}",
+          "parsed": {
+            "person": "李四",
+            "date": "2026-11-02",
+            "location": "南京",
+            "event": "参加培训",
+            "budget": 1600
+          },
+          "seconds": 0.489,
+          "tokens": 80,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_02",
+        "text": "由成都启程的王五将在2026-11-03于苏州参观展览，本次预算1700元。",
+        "expected": {
+          "person": "王五",
+          "date": "2026-11-03",
+          "location": "苏州",
+          "event": "参观展览",
+          "budget": 1700
+        },
+        "response": {
+          "raw": "{\"person\":\"王五\",\"date\":\"2026-11-03\",\"location\":\"苏州\",\"event\":\"参观展览\",\"budget\":1700}",
+          "parsed": {
+            "person": "王五",
+            "date": "2026-11-03",
+            "location": "苏州",
+            "event": "参观展览",
+            "budget": 1700
+          },
+          "seconds": 0.434,
+          "tokens": 68,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_03",
+        "text": "由成都启程的赵六将在2026-11-04于厦门拜访客户，本次预算1800元。",
+        "expected": {
+          "person": "赵六",
+          "date": "2026-11-04",
+          "location": "厦门",
+          "event": "拜访客户",
+          "budget": 1800
+        },
+        "response": {
+          "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-04\",\"location\":\"厦门\",\"event\":\"拜访客户\",\"budget\":1800}",
+          "parsed": {
+            "person": "赵六",
+            "date": "2026-11-04",
+            "location": "厦门",
+            "event": "拜访客户",
+            "budget": 1800
+          },
+          "seconds": 0.552,
+          "tokens": 89,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_04",
+        "text": "由成都启程的陈七将在2026-11-05于青岛参加讲座，本次预算1900元。",
+        "expected": {
+          "person": "陈七",
+          "date": "2026-11-05",
+          "location": "青岛",
+          "event": "参加讲座",
+          "budget": 1900
+        },
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-05\",\"location\":\"青岛\",\"event\":\"参加讲座\",\"budget\":1900}",
+          "parsed": {
+            "person": "陈七",
+            "date": "2026-11-05",
+            "location": "青岛",
+            "event": "参加讲座",
+            "budget": 1900
+          },
+          "seconds": 0.541,
+          "tokens": 84,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_05",
+        "text": "由成都启程的刘八将在2026-11-06于长沙参加会议，本次预算2000元。",
+        "expected": {
+          "person": "刘八",
+          "date": "2026-11-06",
+          "location": "长沙",
+          "event": "参加会议",
+          "budget": 2000
+        },
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-06\",\"location\":\"长沙\",\"event\":\"参加会议\",\"budget\":2000}",
+          "parsed": {
+            "person": "刘八",
+            "date": "2026-11-06",
+            "location": "长沙",
+            "event": "参加会议",
+            "budget": 2000
+          },
+          "seconds": 0.521,
+          "tokens": 81,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_06",
+        "text": "由成都启程的周九将在2026-11-07于合肥参加培训，本次预算2100元。",
+        "expected": {
+          "person": "周九",
+          "date": "2026-11-07",
+          "location": "合肥",
+          "event": "参加培训",
+          "budget": 2100
+        },
+        "response": {
+          "raw": "{\"person\":\"周九\",\"date\":\"2026-11-07\",\"location\":\"合肥\",\"event\":\"参加培训\",\"budget\":2100}",
+          "parsed": {
+            "person": "周九",
+            "date": "2026-11-07",
+            "location": "合肥",
+            "event": "参加培训",
+            "budget": 2100
+          },
+          "seconds": 0.532,
+          "tokens": 84,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_07",
+        "text": "由成都启程的吴十将在2026-11-08于宁波参观展览，本次预算2200元。",
+        "expected": {
+          "person": "吴十",
+          "date": "2026-11-08",
+          "location": "宁波",
+          "event": "参观展览",
+          "budget": 2200
+        },
+        "response": {
+          "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-08\",\"location\":\"宁波\",\"event\":\"参观展览\",\"budget\":2200}",
+          "parsed": {
+            "person": "吴十",
+            "date": "2026-11-08",
+            "location": "宁波",
+            "event": "参观展览",
+            "budget": 2200
+          },
+          "seconds": 0.552,
+          "tokens": 88,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_08",
+        "text": "由成都启程的郑一将在2026-11-09于昆明拜访客户，本次预算2300元。",
+        "expected": {
+          "person": "郑一",
+          "date": "2026-11-09",
+          "location": "昆明",
+          "event": "拜访客户",
+          "budget": 2300
+        },
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-09\",\"location\":\"昆明\",\"event\":\"拜访客户\",\"budget\":2300}",
+          "parsed": {
+            "person": "郑一",
+            "date": "2026-11-09",
+            "location": "昆明",
+            "event": "拜访客户",
+            "budget": 2300
+          },
+          "seconds": 0.563,
+          "tokens": 89,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_09",
+        "text": "由成都启程的孙二将在2026-11-10于福州参加讲座，本次预算2400元。",
+        "expected": {
+          "person": "孙二",
+          "date": "2026-11-10",
+          "location": "福州",
+          "event": "参加讲座",
+          "budget": 2400
+        },
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-10\",\"location\":\"福州\",\"event\":\"参加讲座\",\"budget\":2400}",
+          "parsed": {
+            "person": "孙二",
+            "date": "2026-11-10",
+            "location": "福州",
+            "event": "参加讲座",
+            "budget": 2400
+          },
+          "seconds": 0.557,
+          "tokens": 92,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_00",
+        "text": "请作废此前的广州安排。张三最终确认在2026-11-01前往南京参加会议，预算1500元。",
+        "expected": {
+          "person": "张三",
+          "date": "2026-11-01",
+          "location": "南京",
+          "event": "参加会议",
+          "budget": 1500
+        },
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":\"2026-11-01\",\"location\":\"南京\",\"event\":\"参加会议\",\"budget\":1500}",
+          "parsed": {
+            "person": "张三",
+            "date": "2026-11-01",
+            "location": "南京",
+            "event": "参加会议",
+            "budget": 1500
+          },
+          "seconds": 0.306,
+          "tokens": 44,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_01",
+        "text": "请作废此前的广州安排。李四最终确认在2026-11-02前往苏州参加培训，预算1600元。",
+        "expected": {
+          "person": "李四",
+          "date": "2026-11-02",
+          "location": "苏州",
+          "event": "参加培训",
+          "budget": 1600
+        },
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":\"2026-11-02\",\"location\":\"苏州\",\"event\":\"参加培训\",\"budget\":1600}",
+          "parsed": {
+            "person": "李四",
+            "date": "2026-11-02",
+            "location": "苏州",
+            "event": "参加培训",
+            "budget": 1600
+          },
+          "seconds": 0.313,
+          "tokens": 45,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_02",
+        "text": "请作废此前的广州安排。王五最终确认在2026-11-03前往厦门参观展览，预算1700元。",
+        "expected": {
+          "person": "王五",
+          "date": "2026-11-03",
+          "location": "厦门",
+          "event": "参观展览",
+          "budget": 1700
+        },
+        "response": {
+          "raw": "{\"person\":\"王五\",\"date\":\"2026-11-03\",\"location\":\"厦门\",\"event\":\"参观展览\",\"budget\":1700}",
+          "parsed": {
+            "person": "王五",
+            "date": "2026-11-03",
+            "location": "厦门",
+            "event": "参观展览",
+            "budget": 1700
+          },
+          "seconds": 0.322,
+          "tokens": 47,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_03",
+        "text": "请作废此前的广州安排。赵六最终确认在2026-11-04前往青岛拜访客户，预算1800元。",
+        "expected": {
+          "person": "赵六",
+          "date": "2026-11-04",
+          "location": "青岛",
+          "event": "拜访客户",
+          "budget": 1800
+        },
+        "response": {
+          "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-04\",\"location\":\"青岛\",\"event\":\"拜访客户\",\"budget\":1800}",
+          "parsed": {
+            "person": "赵六",
+            "date": "2026-11-04",
+            "location": "青岛",
+            "event": "拜访客户",
+            "budget": 1800
+          },
+          "seconds": 0.32,
+          "tokens": 46,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_04",
+        "text": "请作废此前的广州安排。陈七最终确认在2026-11-05前往长沙参加讲座，预算1900元。",
+        "expected": {
+          "person": "陈七",
+          "date": "2026-11-05",
+          "location": "长沙",
+          "event": "参加讲座",
+          "budget": 1900
+        },
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-05\",\"location\":\"长沙\",\"event\":\"参加讲座\",\"budget\":1900}",
+          "parsed": {
+            "person": "陈七",
+            "date": "2026-11-05",
+            "location": "长沙",
+            "event": "参加讲座",
+            "budget": 1900
+          },
+          "seconds": 0.305,
+          "tokens": 45,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_05",
+        "text": "请作废此前的广州安排。刘八最终确认在2026-11-06前往合肥参加会议，预算2000元。",
+        "expected": {
+          "person": "刘八",
+          "date": "2026-11-06",
+          "location": "合肥",
+          "event": "参加会议",
+          "budget": 2000
+        },
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-06\",\"location\":\"合肥\",\"event\":\"参加会议\",\"budget\":2000}",
+          "parsed": {
+            "person": "刘八",
+            "date": "2026-11-06",
+            "location": "合肥",
+            "event": "参加会议",
+            "budget": 2000
+          },
+          "seconds": 0.311,
+          "tokens": 45,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_06",
+        "text": "请作废此前的广州安排。周九最终确认在2026-11-07前往宁波参加培训，预算2100元。",
+        "expected": {
+          "person": "周九",
+          "date": "2026-11-07",
+          "location": "宁波",
+          "event": "参加培训",
+          "budget": 2100
+        },
+        "response": {
+          "raw": "{\"person\":\"周九\",\"date\":\"2026-11-07\",\"location\":\"宁波\",\"event\":\"参加培训\",\"budget\":2100}",
+          "parsed": {
+            "person": "周九",
+            "date": "2026-11-07",
+            "location": "宁波",
+            "event": "参加培训",
+            "budget": 2100
+          },
+          "seconds": 0.307,
+          "tokens": 45,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_07",
+        "text": "请作废此前的广州安排。吴十最终确认在2026-11-08前往昆明参观展览，预算2200元。",
+        "expected": {
+          "person": "吴十",
+          "date": "2026-11-08",
+          "location": "昆明",
+          "event": "参观展览",
+          "budget": 2200
+        },
+        "response": {
+          "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-08\",\"location\":\"昆明\",\"event\":\"参观展览\",\"budget\":2200}",
+          "parsed": {
+            "person": "吴十",
+            "date": "2026-11-08",
+            "location": "昆明",
+            "event": "参观展览",
+            "budget": 2200
+          },
+          "seconds": 0.303,
+          "tokens": 47,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_08",
+        "text": "请作废此前的广州安排。郑一最终确认在2026-11-09前往福州拜访客户，预算2300元。",
+        "expected": {
+          "person": "郑一",
+          "date": "2026-11-09",
+          "location": "福州",
+          "event": "拜访客户",
+          "budget": 2300
+        },
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-09\",\"location\":\"福州\",\"event\":\"拜访客户\",\"budget\":2300}",
+          "parsed": {
+            "person": "郑一",
+            "date": "2026-11-09",
+            "location": "福州",
+            "event": "拜访客户",
+            "budget": 2300
+          },
+          "seconds": 0.309,
+          "tokens": 46,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_09",
+        "text": "请作废此前的广州安排。孙二最终确认在2026-11-10前往杭州参加讲座，预算2400元。",
+        "expected": {
+          "person": "孙二",
+          "date": "2026-11-10",
+          "location": "杭州",
+          "event": "参加讲座",
+          "budget": 2400
+        },
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-10\",\"location\":\"杭州\",\"event\":\"参加讲座\",\"budget\":2400}",
+          "parsed": {
+            "person": "孙二",
+            "date": "2026-11-10",
+            "location": "杭州",
+            "event": "参加讲座",
+            "budget": 2400
+          },
+          "seconds": 0.309,
+          "tokens": 45,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_00",
+        "text": "已知张三的任务是在苏州参加会议。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "张三",
+          "date": null,
+          "location": "苏州",
+          "event": "参加会议",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":null}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": null
+          },
+          "seconds": 0.4,
+          "tokens": 64,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_01",
+        "text": "已知李四的任务是在厦门参加培训。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "李四",
+          "date": null,
+          "location": "厦门",
+          "event": "参加培训",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":null}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": null
+          },
+          "seconds": 0.41,
+          "tokens": 62,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_02",
+        "text": "已知王五的任务是在青岛参观展览。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "王五",
+          "date": null,
+          "location": "青岛",
+          "event": "参观展览",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"王五\",\"date\":null,\"location\":\"青岛\",\"event\":\"参观展览\",\"budget\":null}",
+          "parsed": {
+            "person": "王五",
+            "date": null,
+            "location": "青岛",
+            "event": "参观展览",
+            "budget": null
+          },
+          "seconds": 0.453,
+          "tokens": 73,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_03",
+        "text": "已知赵六的任务是在长沙拜访客户。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "赵六",
+          "date": null,
+          "location": "长沙",
+          "event": "拜访客户",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"赵六\",\"date\":null,\"location\":\"长沙\",\"event\":\"拜访客户\",\"budget\":null}",
+          "parsed": {
+            "person": "赵六",
+            "date": null,
+            "location": "长沙",
+            "event": "拜访客户",
+            "budget": null
+          },
+          "seconds": 0.437,
+          "tokens": 71,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_04",
+        "text": "已知陈七的任务是在合肥参加讲座。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "陈七",
+          "date": null,
+          "location": "合肥",
+          "event": "参加讲座",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":null}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": null
+          },
+          "seconds": 0.394,
+          "tokens": 63,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_05",
+        "text": "已知刘八的任务是在宁波参加会议。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "刘八",
+          "date": null,
+          "location": "宁波",
+          "event": "参加会议",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":null}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": null
+          },
+          "seconds": 0.37,
+          "tokens": 59,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_06",
+        "text": "已知周九的任务是在昆明参加培训。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "周九",
+          "date": null,
+          "location": "昆明",
+          "event": "参加培训",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"周九\",\"date\":null,\"location\":\"昆明\",\"event\":\"参加培训\",\"budget\":null}",
+          "parsed": {
+            "person": "周九",
+            "date": null,
+            "location": "昆明",
+            "event": "参加培训",
+            "budget": null
+          },
+          "seconds": 0.387,
+          "tokens": 62,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_07",
+        "text": "已知吴十的任务是在福州参观展览。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "吴十",
+          "date": null,
+          "location": "福州",
+          "event": "参观展览",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"吴十\",\"date\":null,\"location\":\"福州\",\"event\":\"参观展览\",\"budget\":null}",
+          "parsed": {
+            "person": "吴十",
+            "date": null,
+            "location": "福州",
+            "event": "参观展览",
+            "budget": null
+          },
+          "seconds": 0.421,
+          "tokens": 65,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_08",
+        "text": "已知郑一的任务是在杭州拜访客户。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "郑一",
+          "date": null,
+          "location": "杭州",
+          "event": "拜访客户",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":null}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": null
+          },
+          "seconds": 0.407,
+          "tokens": 64,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_09",
+        "text": "已知孙二的任务是在南京参加讲座。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "孙二",
+          "date": null,
+          "location": "南京",
+          "event": "参加讲座",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":null}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": null
+          },
+          "seconds": 0.402,
+          "tokens": 60,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      }
+    ]
+  },
+  "rsl": {
+    "count": 30,
+    "exact_accuracy": 1.0,
+    "field_accuracy": 1.0,
+    "json_object_rate": 1.0,
+    "mean_seconds": 0.4210333333333333,
+    "records": [
+      {
+        "id": "test_0_00",
+        "text": "由成都启程的张三将在2026-11-01于杭州参加会议，本次预算1500元。",
+        "expected": {
+          "person": "张三",
+          "date": "2026-11-01",
+          "location": "杭州",
+          "event": "参加会议",
+          "budget": 1500
+        },
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":\"2026-11-01\",\"location\":\"杭州\",\"event\":\"参加会议\",\"budget\":1500}",
+          "parsed": {
+            "person": "张三",
+            "date": "2026-11-01",
+            "location": "杭州",
+            "event": "参加会议",
+            "budget": 1500
+          },
+          "seconds": 0.315,
+          "tokens": 44,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_01",
+        "text": "由成都启程的李四将在2026-11-02于南京参加培训，本次预算1600元。",
+        "expected": {
+          "person": "李四",
+          "date": "2026-11-02",
+          "location": "南京",
+          "event": "参加培训",
+          "budget": 1600
+        },
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":\"2026-11-02\",\"location\":\"南京\",\"event\":\"参加培训\",\"budget\":1600}",
+          "parsed": {
+            "person": "李四",
+            "date": "2026-11-02",
+            "location": "南京",
+            "event": "参加培训",
+            "budget": 1600
+          },
+          "seconds": 0.282,
+          "tokens": 44,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_02",
+        "text": "由成都启程的王五将在2026-11-03于苏州参观展览，本次预算1700元。",
+        "expected": {
+          "person": "王五",
+          "date": "2026-11-03",
+          "location": "苏州",
+          "event": "参观展览",
+          "budget": 1700
+        },
+        "response": {
+          "raw": "{\"person\":\"王五\",\"date\":\"2026-11-03\",\"location\":\"苏州\",\"event\":\"参观展览\",\"budget\":1700}",
+          "parsed": {
+            "person": "王五",
+            "date": "2026-11-03",
+            "location": "苏州",
+            "event": "参观展览",
+            "budget": 1700
+          },
+          "seconds": 0.305,
+          "tokens": 47,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_03",
+        "text": "由成都启程的赵六将在2026-11-04于厦门拜访客户，本次预算1800元。",
+        "expected": {
+          "person": "赵六",
+          "date": "2026-11-04",
+          "location": "厦门",
+          "event": "拜访客户",
+          "budget": 1800
+        },
+        "response": {
+          "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-04\",\"location\":\"厦门\",\"event\":\"拜访客户\",\"budget\":1800}",
+          "parsed": {
+            "person": "赵六",
+            "date": "2026-11-04",
+            "location": "厦门",
+            "event": "拜访客户",
+            "budget": 1800
+          },
+          "seconds": 0.317,
+          "tokens": 46,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_04",
+        "text": "由成都启程的陈七将在2026-11-05于青岛参加讲座，本次预算1900元。",
+        "expected": {
+          "person": "陈七",
+          "date": "2026-11-05",
+          "location": "青岛",
+          "event": "参加讲座",
+          "budget": 1900
+        },
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-05\",\"location\":\"青岛\",\"event\":\"参加讲座\",\"budget\":1900}",
+          "parsed": {
+            "person": "陈七",
+            "date": "2026-11-05",
+            "location": "青岛",
+            "event": "参加讲座",
+            "budget": 1900
+          },
+          "seconds": 0.31,
+          "tokens": 46,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_05",
+        "text": "由成都启程的刘八将在2026-11-06于长沙参加会议，本次预算2000元。",
+        "expected": {
+          "person": "刘八",
+          "date": "2026-11-06",
+          "location": "长沙",
+          "event": "参加会议",
+          "budget": 2000
+        },
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-06\",\"location\":\"长沙\",\"event\":\"参加会议\",\"budget\":2000}",
+          "parsed": {
+            "person": "刘八",
+            "date": "2026-11-06",
+            "location": "长沙",
+            "event": "参加会议",
+            "budget": 2000
+          },
+          "seconds": 0.3,
+          "tokens": 44,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_06",
+        "text": "由成都启程的周九将在2026-11-07于合肥参加培训，本次预算2100元。",
+        "expected": {
+          "person": "周九",
+          "date": "2026-11-07",
+          "location": "合肥",
+          "event": "参加培训",
+          "budget": 2100
+        },
+        "response": {
+          "raw": "{\"person\":\"周九\",\"date\":\"2026-11-07\",\"location\":\"合肥\",\"event\":\"参加培训\",\"budget\":2100}",
+          "parsed": {
+            "person": "周九",
+            "date": "2026-11-07",
+            "location": "合肥",
+            "event": "参加培训",
+            "budget": 2100
+          },
+          "seconds": 0.315,
+          "tokens": 45,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_07",
+        "text": "由成都启程的吴十将在2026-11-08于宁波参观展览，本次预算2200元。",
+        "expected": {
+          "person": "吴十",
+          "date": "2026-11-08",
+          "location": "宁波",
+          "event": "参观展览",
+          "budget": 2200
+        },
+        "response": {
+          "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-08\",\"location\":\"宁波\",\"event\":\"参观展览\",\"budget\":2200}",
+          "parsed": {
+            "person": "吴十",
+            "date": "2026-11-08",
+            "location": "宁波",
+            "event": "参观展览",
+            "budget": 2200
+          },
+          "seconds": 0.323,
+          "tokens": 47,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_08",
+        "text": "由成都启程的郑一将在2026-11-09于昆明拜访客户，本次预算2300元。",
+        "expected": {
+          "person": "郑一",
+          "date": "2026-11-09",
+          "location": "昆明",
+          "event": "拜访客户",
+          "budget": 2300
+        },
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-09\",\"location\":\"昆明\",\"event\":\"拜访客户\",\"budget\":2300}",
+          "parsed": {
+            "person": "郑一",
+            "date": "2026-11-09",
+            "location": "昆明",
+            "event": "拜访客户",
+            "budget": 2300
+          },
+          "seconds": 0.322,
+          "tokens": 46,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_0_09",
+        "text": "由成都启程的孙二将在2026-11-10于福州参加讲座，本次预算2400元。",
+        "expected": {
+          "person": "孙二",
+          "date": "2026-11-10",
+          "location": "福州",
+          "event": "参加讲座",
+          "budget": 2400
+        },
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-10\",\"location\":\"福州\",\"event\":\"参加讲座\",\"budget\":2400}",
+          "parsed": {
+            "person": "孙二",
+            "date": "2026-11-10",
+            "location": "福州",
+            "event": "参加讲座",
+            "budget": 2400
+          },
+          "seconds": 0.313,
+          "tokens": 46,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_00",
+        "text": "请作废此前的广州安排。张三最终确认在2026-11-01前往南京参加会议，预算1500元。",
+        "expected": {
+          "person": "张三",
+          "date": "2026-11-01",
+          "location": "南京",
+          "event": "参加会议",
+          "budget": 1500
+        },
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":\"2026-11-01\",\"location\":\"南京\",\"event\":\"参加会议\",\"budget\":1500}",
+          "parsed": {
+            "person": "张三",
+            "date": "2026-11-01",
+            "location": "南京",
+            "event": "参加会议",
+            "budget": 1500
+          },
+          "seconds": 0.482,
+          "tokens": 78,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_01",
+        "text": "请作废此前的广州安排。李四最终确认在2026-11-02前往苏州参加培训，预算1600元。",
+        "expected": {
+          "person": "李四",
+          "date": "2026-11-02",
+          "location": "苏州",
+          "event": "参加培训",
+          "budget": 1600
+        },
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":\"2026-11-02\",\"location\":\"苏州\",\"event\":\"参加培训\",\"budget\":1600}",
+          "parsed": {
+            "person": "李四",
+            "date": "2026-11-02",
+            "location": "苏州",
+            "event": "参加培训",
+            "budget": 1600
+          },
+          "seconds": 0.55,
+          "tokens": 85,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_02",
+        "text": "请作废此前的广州安排。王五最终确认在2026-11-03前往厦门参观展览，预算1700元。",
+        "expected": {
+          "person": "王五",
+          "date": "2026-11-03",
+          "location": "厦门",
+          "event": "参观展览",
+          "budget": 1700
+        },
+        "response": {
+          "raw": "{\"person\":\"王五\",\"date\":\"2026-11-03\",\"location\":\"厦门\",\"event\":\"参观展览\",\"budget\":1700}",
+          "parsed": {
+            "person": "王五",
+            "date": "2026-11-03",
+            "location": "厦门",
+            "event": "参观展览",
+            "budget": 1700
+          },
+          "seconds": 0.326,
+          "tokens": 47,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_03",
+        "text": "请作废此前的广州安排。赵六最终确认在2026-11-04前往青岛拜访客户，预算1800元。",
+        "expected": {
+          "person": "赵六",
+          "date": "2026-11-04",
+          "location": "青岛",
+          "event": "拜访客户",
+          "budget": 1800
+        },
+        "response": {
+          "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-04\",\"location\":\"青岛\",\"event\":\"拜访客户\",\"budget\":1800}",
+          "parsed": {
+            "person": "赵六",
+            "date": "2026-11-04",
+            "location": "青岛",
+            "event": "拜访客户",
+            "budget": 1800
+          },
+          "seconds": 0.552,
+          "tokens": 87,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_04",
+        "text": "请作废此前的广州安排。陈七最终确认在2026-11-05前往长沙参加讲座，预算1900元。",
+        "expected": {
+          "person": "陈七",
+          "date": "2026-11-05",
+          "location": "长沙",
+          "event": "参加讲座",
+          "budget": 1900
+        },
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-05\",\"location\":\"长沙\",\"event\":\"参加讲座\",\"budget\":1900}",
+          "parsed": {
+            "person": "陈七",
+            "date": "2026-11-05",
+            "location": "长沙",
+            "event": "参加讲座",
+            "budget": 1900
+          },
+          "seconds": 0.531,
+          "tokens": 85,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_05",
+        "text": "请作废此前的广州安排。刘八最终确认在2026-11-06前往合肥参加会议，预算2000元。",
+        "expected": {
+          "person": "刘八",
+          "date": "2026-11-06",
+          "location": "合肥",
+          "event": "参加会议",
+          "budget": 2000
+        },
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-06\",\"location\":\"合肥\",\"event\":\"参加会议\",\"budget\":2000}",
+          "parsed": {
+            "person": "刘八",
+            "date": "2026-11-06",
+            "location": "合肥",
+            "event": "参加会议",
+            "budget": 2000
+          },
+          "seconds": 0.539,
+          "tokens": 85,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_06",
+        "text": "请作废此前的广州安排。周九最终确认在2026-11-07前往宁波参加培训，预算2100元。",
+        "expected": {
+          "person": "周九",
+          "date": "2026-11-07",
+          "location": "宁波",
+          "event": "参加培训",
+          "budget": 2100
+        },
+        "response": {
+          "raw": "{\"person\":\"周九\",\"date\":\"2026-11-07\",\"location\":\"宁波\",\"event\":\"参加培训\",\"budget\":2100}",
+          "parsed": {
+            "person": "周九",
+            "date": "2026-11-07",
+            "location": "宁波",
+            "event": "参加培训",
+            "budget": 2100
+          },
+          "seconds": 0.544,
+          "tokens": 86,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_07",
+        "text": "请作废此前的广州安排。吴十最终确认在2026-11-08前往昆明参观展览，预算2200元。",
+        "expected": {
+          "person": "吴十",
+          "date": "2026-11-08",
+          "location": "昆明",
+          "event": "参观展览",
+          "budget": 2200
+        },
+        "response": {
+          "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-08\",\"location\":\"昆明\",\"event\":\"参观展览\",\"budget\":2200}",
+          "parsed": {
+            "person": "吴十",
+            "date": "2026-11-08",
+            "location": "昆明",
+            "event": "参观展览",
+            "budget": 2200
+          },
+          "seconds": 0.577,
+          "tokens": 91,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_08",
+        "text": "请作废此前的广州安排。郑一最终确认在2026-11-09前往福州拜访客户，预算2300元。",
+        "expected": {
+          "person": "郑一",
+          "date": "2026-11-09",
+          "location": "福州",
+          "event": "拜访客户",
+          "budget": 2300
+        },
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-09\",\"location\":\"福州\",\"event\":\"拜访客户\",\"budget\":2300}",
+          "parsed": {
+            "person": "郑一",
+            "date": "2026-11-09",
+            "location": "福州",
+            "event": "拜访客户",
+            "budget": 2300
+          },
+          "seconds": 0.555,
+          "tokens": 87,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_1_09",
+        "text": "请作废此前的广州安排。孙二最终确认在2026-11-10前往杭州参加讲座，预算2400元。",
+        "expected": {
+          "person": "孙二",
+          "date": "2026-11-10",
+          "location": "杭州",
+          "event": "参加讲座",
+          "budget": 2400
+        },
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-10\",\"location\":\"杭州\",\"event\":\"参加讲座\",\"budget\":2400}",
+          "parsed": {
+            "person": "孙二",
+            "date": "2026-11-10",
+            "location": "杭州",
+            "event": "参加讲座",
+            "budget": 2400
+          },
+          "seconds": 0.546,
+          "tokens": 87,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_00",
+        "text": "已知张三的任务是在苏州参加会议。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "张三",
+          "date": null,
+          "location": "苏州",
+          "event": "参加会议",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":null}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": null
+          },
+          "seconds": 0.399,
+          "tokens": 64,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_01",
+        "text": "已知李四的任务是在厦门参加培训。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "李四",
+          "date": null,
+          "location": "厦门",
+          "event": "参加培训",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":null}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": null
+          },
+          "seconds": 0.395,
+          "tokens": 60,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_02",
+        "text": "已知王五的任务是在青岛参观展览。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "王五",
+          "date": null,
+          "location": "青岛",
+          "event": "参观展览",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"王五\",\"date\":null,\"location\":\"青岛\",\"event\":\"参观展览\",\"budget\":null}",
+          "parsed": {
+            "person": "王五",
+            "date": null,
+            "location": "青岛",
+            "event": "参观展览",
+            "budget": null
+          },
+          "seconds": 0.425,
+          "tokens": 68,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_03",
+        "text": "已知赵六的任务是在长沙拜访客户。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "赵六",
+          "date": null,
+          "location": "长沙",
+          "event": "拜访客户",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"赵六\",\"date\":null,\"location\":\"长沙\",\"event\":\"拜访客户\",\"budget\":null}",
+          "parsed": {
+            "person": "赵六",
+            "date": null,
+            "location": "长沙",
+            "event": "拜访客户",
+            "budget": null
+          },
+          "seconds": 0.463,
+          "tokens": 71,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_04",
+        "text": "已知陈七的任务是在合肥参加讲座。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "陈七",
+          "date": null,
+          "location": "合肥",
+          "event": "参加讲座",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":null}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": null
+          },
+          "seconds": 0.442,
+          "tokens": 71,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_05",
+        "text": "已知刘八的任务是在宁波参加会议。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "刘八",
+          "date": null,
+          "location": "宁波",
+          "event": "参加会议",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":null}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": null
+          },
+          "seconds": 0.425,
+          "tokens": 66,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_06",
+        "text": "已知周九的任务是在昆明参加培训。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "周九",
+          "date": null,
+          "location": "昆明",
+          "event": "参加培训",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"周九\",\"date\":null,\"location\":\"昆明\",\"event\":\"参加培训\",\"budget\":null}",
+          "parsed": {
+            "person": "周九",
+            "date": null,
+            "location": "昆明",
+            "event": "参加培训",
+            "budget": null
+          },
+          "seconds": 0.392,
+          "tokens": 60,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_07",
+        "text": "已知吴十的任务是在福州参观展览。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "吴十",
+          "date": null,
+          "location": "福州",
+          "event": "参观展览",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"吴十\",\"date\":null,\"location\":\"福州\",\"event\":\"参观展览\",\"budget\":null}",
+          "parsed": {
+            "person": "吴十",
+            "date": null,
+            "location": "福州",
+            "event": "参观展览",
+            "budget": null
+          },
+          "seconds": 0.466,
+          "tokens": 72,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_08",
+        "text": "已知郑一的任务是在杭州拜访客户。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "郑一",
+          "date": null,
+          "location": "杭州",
+          "event": "拜访客户",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":null}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": null
+          },
+          "seconds": 0.47,
+          "tokens": 72,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      },
+      {
+        "id": "test_2_09",
+        "text": "已知孙二的任务是在南京参加讲座。尚未确定日期或预算，其他项目预算900元不属于本活动。",
+        "expected": {
+          "person": "孙二",
+          "date": null,
+          "location": "南京",
+          "event": "参加讲座",
+          "budget": null
+        },
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":null}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": null
+          },
+          "seconds": 0.45,
+          "tokens": 70,
+          "done_reason": "stop"
+        },
+        "errors": [],
+        "correct": true
+      }
+    ]
+  }
+}
