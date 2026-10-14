@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "train_0_00",
+    "category": "destination",
+    "text": "张三从北京出发去杭州参加会议，预算1500元，日期是2026-11-01。",
+    "expected": {
+      "person": "张三",
+      "date": "2026-11-01",
+      "location": "杭州",
+      "event": "参加会议",
+      "budget": 1500
+    }
+  },
+  {
+    "id": "train_0_01",
+    "category": "destination",
+    "text": "李四从北京出发去南京参加培训，预算1600元，日期是2026-11-02。",
+    "expected": {
+      "person": "李四",
+      "date": "2026-11-02",
+      "location": "南京",
+      "event": "参加培训",
+      "budget": 1600
+    }
+  },
+  {
+    "id": "train_0_02",
+    "category": "destination",
+    "text": "王五从北京出发去苏州参观展览，预算1700元，日期是2026-11-03。",
+    "expected": {
+      "person": "王五",
+      "date": "2026-11-03",
+      "location": "苏州",
+      "event": "参观展览",
+      "budget": 1700
+    }
+  },
+  {
+    "id": "train_0_03",
+    "category": "destination",
+    "text": "赵六从北京出发去厦门拜访客户，预算1800元，日期是2026-11-04。",
+    "expected": {
+      "person": "赵六",
+      "date": "2026-11-04",
+      "location": "厦门",
+      "event": "拜访客户",
+      "budget": 1800
+    }
+  },
+  {
+    "id": "train_0_04",
+    "category": "destination",
+    "text": "陈七从北京出发去青岛参加讲座，预算1900元，日期是2026-11-05。",
+    "expected": {
+      "person": "陈七",
+      "date": "2026-11-05",
+      "location": "青岛",
+      "event": "参加讲座",
+      "budget": 1900
+    }
+  },
+  {
+    "id": "train_0_05",
+    "category": "destination",
+    "text": "刘八从北京出发去长沙参加会议，预算2000元，日期是2026-11-06。",
+    "expected": {
+      "person": "刘八",
+      "date": "2026-11-06",
+      "location": "长沙",
+      "event": "参加会议",
+      "budget": 2000
+    }
+  },
+  {
+    "id": "train_0_06",
+    "category": "destination",
+    "text": "周九从北京出发去合肥参加培训，预算2100元，日期是2026-11-07。",
+    "expected": {
+      "person": "周九",
+      "date": "2026-11-07",
+      "location": "合肥",
+      "event": "参加培训",
+      "budget": 2100
+    }
+  },
+  {
+    "id": "train_0_07",
+    "category": "destination",
+    "text": "吴十从北京出发去宁波参观展览，预算2200元，日期是2026-11-08。",
+    "expected": {
+      "person": "吴十",
+      "date": "2026-11-08",
+      "location": "宁波",
+      "event": "参观展览",
+      "budget": 2200
+    }
+  },
+  {
+    "id": "train_0_08",
+    "category": "destination",
+    "text": "郑一从北京出发去昆明拜访客户，预算2300元，日期是2026-11-09。",
+    "expected": {
+      "person": "郑一",
+      "date": "2026-11-09",
+      "location": "昆明",
+      "event": "拜访客户",
+      "budget": 2300
+    }
+  },
+  {
+    "id": "train_0_09",
+    "category": "destination",
+    "text": "孙二从北京出发去福州参加讲座，预算2400元，日期是2026-11-10。",
+    "expected": {
+      "person": "孙二",
+      "date": "2026-11-10",
+      "location": "福州",
+      "event": "参加讲座",
+      "budget": 2400
+    }
+  },
+  {
+    "id": "train_0_10",
+    "category": "destination",
+    "text": "张三从北京出发去杭州参加会议，预算2500元，日期是2026-11-11。",
+    "expected": {
+      "person": "张三",
+      "date": "2026-11-11",
+      "location": "杭州",
+      "event": "参加会议",
+      "budget": 2500
+    }
+  },
+  {
+    "id": "train_0_11",
+    "category": "destination",
+    "text": "李四从北京出发去南京参加培训，预算2600元，日期是2026-11-12。",
+    "expected": {
+      "person": "李四",
+      "date": "2026-11-12",
+      "location": "南京",
+      "event": "参加培训",
+      "budget": 2600
+    }
+  },
+  {
+    "id": "train_0_12",
+    "category": "destination",
+    "text": "王五从北京出发去苏州参观展览，预算2700元，日期是2026-11-13。",
+    "expected": {
+      "person": "王五",
+      "date": "2026-11-13",
+      "location": "苏州",
+      "event": "参观展览",
+      "budget": 2700
+    }
+  },
+  {
+    "id": "train_0_13",
+    "category": "destination",
+    "text": "赵六从北京出发去厦门拜访客户，预算2800元，日期是2026-11-14。",
+    "expected": {
+      "person": "赵六",
+      "date": "2026-11-14",
+      "location": "厦门",
+      "event": "拜访客户",
+      "budget": 2800
+    }
+  },
+  {
+    "id": "train_0_14",
+    "category": "destination",
+    "text": "陈七从北京出发去青岛参加讲座，预算2900元，日期是2026-11-15。",
+    "expected": {
+      "person": "陈七",
+      "date": "2026-11-15",
+      "location": "青岛",
+      "event": "参加讲座",
+      "budget": 2900
+    }
+  },
+  {
+    "id": "train_0_15",
+    "category": "destination",
+    "text": "刘八从北京出发去长沙参加会议，预算3000元，日期是2026-11-16。",
+    "expected": {
+      "person": "刘八",
+      "date": "2026-11-16",
+      "location": "长沙",
+      "event": "参加会议",
+      "budget": 3000
+    }
+  },
+  {
+    "id": "train_0_16",
+    "category": "destination",
+    "text": "周九从北京出发去合肥参加培训，预算3100元，日期是2026-11-17。",
+    "expected": {
+      "person": "周九",
+      "date": "2026-11-17",
+      "location": "合肥",
+      "event": "参加培训",
+      "budget": 3100
+    }
+  },
+  {
+    "id": "train_0_17",
+    "category": "destination",
+    "text": "吴十从北京出发去宁波参观展览，预算3200元，日期是2026-11-18。",
+    "expected": {
+      "person": "吴十",
+      "date": "2026-11-18",
+      "location": "宁波",
+      "event": "参观展览",
+      "budget": 3200
+    }
+  },
+  {
+    "id": "train_0_18",
+    "category": "destination",
+    "text": "郑一从北京出发去昆明拜访客户，预算3300元，日期是2026-11-19。",
+    "expected": {
+      "person": "郑一",
+      "date": "2026-11-19",
+      "location": "昆明",
+      "event": "拜访客户",
+      "budget": 3300
+    }
+  },
+  {
+    "id": "train_0_19",
+    "category": "destination",
+    "text": "孙二从北京出发去福州参加讲座，预算3400元，日期是2026-11-20。",
+    "expected": {
+      "person": "孙二",
+      "date": "2026-11-20",
+      "location": "福州",
+      "event": "参加讲座",
+      "budget": 3400
+    }
+  },
+  {
+    "id": "train_0_20",
+    "category": "destination",
+    "text": "张三从北京出发去杭州参加会议，预算3500元，日期是2026-11-21。",
+    "expected": {
+      "person": "张三",
+      "date": "2026-11-21",
+      "location": "杭州",
+      "event": "参加会议",
+      "budget": 3500
+    }
+  },
+  {
+    "id": "train_0_21",
+    "category": "destination",
+    "text": "李四从北京出发去南京参加培训，预算3600元，日期是2026-11-22。",
+    "expected": {
+      "person": "李四",
+      "date": "2026-11-22",
+      "location": "南京",
+      "event": "参加培训",
+      "budget": 3600
+    }
+  },
+  {
+    "id": "train_0_22",
+    "category": "destination",
+    "text": "王五从北京出发去苏州参观展览，预算3700元，日期是2026-11-23。",
+    "expected": {
+      "person": "王五",
+      "date": "2026-11-23",
+      "location": "苏州",
+      "event": "参观展览",
+      "budget": 3700
+    }
+  },
+  {
+    "id": "train_0_23",
+    "category": "destination",
+    "text": "赵六从北京出发去厦门拜访客户，预算3800元，日期是2026-11-24。",
+    "expected": {
+      "person": "赵六",
+      "date": "2026-11-24",
+      "location": "厦门",
+      "event": "拜访客户",
+      "budget": 3800
+    }
+  },
+  {
+    "id": "train_0_24",
+    "category": "destination",
+    "text": "陈七从北京出发去青岛参加讲座，预算3900元，日期是2026-11-25。",
+    "expected": {
+      "person": "陈七",
+      "date": "2026-11-25",
+      "location": "青岛",
+      "event": "参加讲座",
+      "budget": 3900
+    }
+  },
+  {
+    "id": "train_0_25",
+    "category": "destination",
+    "text": "刘八从北京出发去长沙参加会议，预算4000元，日期是2026-11-26。",
+    "expected": {
+      "person": "刘八",
+      "date": "2026-11-26",
+      "location": "长沙",
+      "event": "参加会议",
+      "budget": 4000
+    }
+  },
+  {
+    "id": "train_0_26",
+    "category": "destination",
+    "text": "周九从北京出发去合肥参加培训，预算4100元，日期是2026-11-27。",
+    "expected": {
+      "person": "周九",
+      "date": "2026-11-27",
+      "location": "合肥",
+      "event": "参加培训",
+      "budget": 4100
+    }
+  },
+  {
+    "id": "train_0_27",
+    "category": "destination",
+    "text": "吴十从北京出发去宁波参观展览，预算4200元，日期是2026-11-28。",
+    "expected": {
+      "person": "吴十",
+      "date": "2026-11-28",
+      "location": "宁波",
+      "event": "参观展览",
+      "budget": 4200
+    }
+  },
+  {
+    "id": "train_0_28",
+    "category": "destination",
+    "text": "郑一从北京出发去昆明拜访客户，预算4300元，日期是2026-11-01。",
+    "expected": {
+      "person": "郑一",
+      "date": "2026-11-01",
+      "location": "昆明",
+      "event": "拜访客户",
+      "budget": 4300
+    }
+  },
+  {
+    "id": "train_0_29",
+    "category": "destination",
+    "text": "孙二从北京出发去福州参加讲座，预算4400元，日期是2026-11-02。",
+    "expected": {
+      "person": "孙二",
+      "date": "2026-11-02",
+      "location": "福州",
+      "event": "参加讲座",
+      "budget": 4400
+    }
+  },
+  {
+    "id": "train_1_00",
+    "category": "correction",
+    "text": "张三原定去天津，后来改为去南京参加会议，日期2026-11-01，预算1500元。",
+    "expected": {
+      "person": "张三",
+      "date": "2026-11-01",
+      "location": "南京",
+      "event": "参加会议",
+      "budget": 1500
+    }
+  },
+  {
+    "id": "train_1_01",
+    "category": "correction",
+    "text": "李四原定去天津，后来改为去苏州参加培训，日期2026-11-02，预算1600元。",
+    "expected": {
+      "person": "李四",
+      "date": "2026-11-02",
+      "location": "苏州",
+      "event": "参加培训",
+      "budget": 1600
+    }
+  },
+  {
+    "id": "train_1_02",
+    "category": "correction",
+    "text": "王五原定去天津，后来改为去厦门参观展览，日期2026-11-03，预算1700元。",
+    "expected": {
+      "person": "王五",
+      "date": "2026-11-03",
+      "location": "厦门",
+      "event": "参观展览",
+      "budget": 1700
+    }
+  },
+  {
+    "id": "train_1_03",
+    "category": "correction",
+    "text": "赵六原定去天津，后来改为去青岛拜访客户，日期2026-11-04，预算1800元。",
+    "expected": {
+      "person": "赵六",
+      "date": "2026-11-04",
+      "location": "青岛",
+      "event": "拜访客户",
+      "budget": 1800
+    }
+  },
+  {
+    "id": "train_1_04",
+    "category": "correction",
+    "text": "陈七原定去天津，后来改为去长沙参加讲座，日期2026-11-05，预算1900元。",
+    "expected": {
+      "person": "陈七",
+      "date": "2026-11-05",
+      "location": "长沙",
+      "event": "参加讲座",
+      "budget": 1900
+    }
+  },
+  {
+    "id": "train_1_05",
+    "category": "correction",
+    "text": "刘八原定去天津，后来改为去合肥参加会议，日期2026-11-06，预算2000元。",
+    "expected": {
+      "person": "刘八",
+      "date": "2026-11-06",
+      "location": "合肥",
+      "event": "参加会议",
+      "budget": 2000
+    }
+  },
+  {
+    "id": "train_1_06",
+    "category": "correction",
+    "text": "周九原定去天津，后来改为去宁波参加培训，日期2026-11-07，预算2100元。",
+    "expected": {
+      "person": "周九",
+      "date": "2026-11-07",
+      "location": "宁波",
+      "event": "参加培训",
+      "budget": 2100
+    }
+  },
+  {
+    "id": "train_1_07",
+    "category": "correction",
+    "text": "吴十原定去天津，后来改为去昆明参观展览，日期2026-11-08，预算2200元。",
+    "expected": {
+      "person": "吴十",
+      "date": "2026-11-08",
+      "location": "昆明",
+      "event": "参观展览",
+      "budget": 2200
+    }
+  },
+  {
+    "id": "train_1_08",
+    "category": "correction",
+    "text": "郑一原定去天津，后来改为去福州拜访客户，日期2026-11-09，预算2300元。",
+    "expected": {
+      "person": "郑一",
+      "date": "2026-11-09",
+      "location": "福州",
+      "event": "拜访客户",
+      "budget": 2300
+    }
+  },
+  {
+    "id": "train_1_09",
+    "category": "correction",
+    "text": "孙二原定去天津，后来改为去杭州参加讲座，日期2026-11-10，预算2400元。",
+    "expected": {
+      "person": "孙二",
+      "date": "2026-11-10",
+      "location": "杭州",
+      "event": "参加讲座",
+      "budget": 2400
+    }
+  },
+  {
+    "id": "train_1_10",
+    "category": "correction",
+    "text": "张三原定去天津，后来改为去南京参加会议，日期2026-11-11，预算2500元。",
+    "expected": {
+      "person": "张三",
+      "date": "2026-11-11",
+      "location": "南京",
+      "event": "参加会议",
+      "budget": 2500
+    }
+  },
+  {
+    "id": "train_1_11",
+    "category": "correction",
+    "text": "李四原定去天津，后来改为去苏州参加培训，日期2026-11-12，预算2600元。",
+    "expected": {
+      "person": "李四",
+      "date": "2026-11-12",
+      "location": "苏州",
+      "event": "参加培训",
+      "budget": 2600
+    }
+  },
+  {
+    "id": "train_1_12",
+    "category": "correction",
+    "text": "王五原定去天津，后来改为去厦门参观展览，日期2026-11-13，预算2700元。",
+    "expected": {
+      "person": "王五",
+      "date": "2026-11-13",
+      "location": "厦门",
+      "event": "参观展览",
+      "budget": 2700
+    }
+  },
+  {
+    "id": "train_1_13",
+    "category": "correction",
+    "text": "赵六原定去天津，后来改为去青岛拜访客户，日期2026-11-14，预算2800元。",
+    "expected": {
+      "person": "赵六",
+      "date": "2026-11-14",
+      "location": "青岛",
+      "event": "拜访客户",
+      "budget": 2800
+    }
+  },
+  {
+    "id": "train_1_14",
+    "category": "correction",
+    "text": "陈七原定去天津，后来改为去长沙参加讲座，日期2026-11-15，预算2900元。",
+    "expected": {
+      "person": "陈七",
+      "date": "2026-11-15",
+      "location": "长沙",
+      "event": "参加讲座",
+      "budget": 2900
+    }
+  },
+  {
+    "id": "train_1_15",
+    "category": "correction",
+    "text": "刘八原定去天津，后来改为去合肥参加会议，日期2026-11-16，预算3000元。",
+    "expected": {
+      "person": "刘八",
+      "date": "2026-11-16",
+      "location": "合肥",
+      "event": "参加会议",
+      "budget": 3000
+    }
+  },
+  {
+    "id": "train_1_16",
+    "category": "correction",
+    "text": "周九原定去天津，后来改为去宁波参加培训，日期2026-11-17，预算3100元。",
+    "expected": {
+      "person": "周九",
+      "date": "2026-11-17",
+      "location": "宁波",
+      "event": "参加培训",
+      "budget": 3100
+    }
+  },
+  {
+    "id": "train_1_17",
+    "category": "correction",
+    "text": "吴十原定去天津，后来改为去昆明参观展览，日期2026-11-18，预算3200元。",
+    "expected": {
+      "person": "吴十",
+      "date": "2026-11-18",
+      "location": "昆明",
+      "event": "参观展览",
+      "budget": 3200
+    }
+  },
+  {
+    "id": "train_1_18",
+    "category": "correction",
+    "text": "郑一原定去天津，后来改为去福州拜访客户，日期2026-11-19，预算3300元。",
+    "expected": {
+      "person": "郑一",
+      "date": "2026-11-19",
+      "location": "福州",
+      "event": "拜访客户",
+      "budget": 3300
+    }
+  },
+  {
+    "id": "train_1_19",
+    "category": "correction",
+    "text": "孙二原定去天津，后来改为去杭州参加讲座，日期2026-11-20，预算3400元。",
+    "expected": {
+      "person": "孙二",
+      "date": "2026-11-20",
+      "location": "杭州",
+      "event": "参加讲座",
+      "budget": 3400
+    }
+  },
+  {
+    "id": "train_1_20",
+    "category": "correction",
+    "text": "张三原定去天津，后来改为去南京参加会议，日期2026-11-21，预算3500元。",
+    "expected": {
+      "person": "张三",
+      "date": "2026-11-21",
+      "location": "南京",
+      "event": "参加会议",
+      "budget": 3500
+    }
+  },
+  {
+    "id": "train_1_21",
+    "category": "correction",
+    "text": "李四原定去天津，后来改为去苏州参加培训，日期2026-11-22，预算3600元。",
+    "expected": {
+      "person": "李四",
+      "date": "2026-11-22",
+      "location": "苏州",
+      "event": "参加培训",
+      "budget": 3600
+    }
+  },
+  {
+    "id": "train_1_22",
+    "category": "correction",
+    "text": "王五原定去天津，后来改为去厦门参观展览，日期2026-11-23，预算3700元。",
+    "expected": {
+      "person": "王五",
+      "date": "2026-11-23",
+      "location": "厦门",
+      "event": "参观展览",
+      "budget": 3700
+    }
+  },
+  {
+    "id": "train_1_23",
+    "category": "correction",
+    "text": "赵六原定去天津，后来改为去青岛拜访客户，日期2026-11-24，预算3800元。",
+    "expected": {
+      "person": "赵六",
+      "date": "2026-11-24",
+      "location": "青岛",
+      "event": "拜访客户",
+      "budget": 3800
+    }
+  },
+  {
+    "id": "train_1_24",
+    "category": "correction",
+    "text": "陈七原定去天津，后来改为去长沙参加讲座，日期2026-11-25，预算3900元。",
+    "expected": {
+      "person": "陈七",
+      "date": "2026-11-25",
+      "location": "长沙",
+      "event": "参加讲座",
+      "budget": 3900
+    }
+  },
+  {
+    "id": "train_1_25",
+    "category": "correction",
+    "text": "刘八原定去天津，后来改为去合肥参加会议，日期2026-11-26，预算4000元。",
+    "expected": {
+      "person": "刘八",
+      "date": "2026-11-26",
+      "location": "合肥",
+      "event": "参加会议",
+      "budget": 4000
+    }
+  },
+  {
+    "id": "train_1_26",
+    "category": "correction",
+    "text": "周九原定去天津，后来改为去宁波参加培训，日期2026-11-27，预算4100元。",
+    "expected": {
+      "person": "周九",
+      "date": "2026-11-27",
+      "location": "宁波",
+      "event": "参加培训",
+      "budget": 4100
+    }
+  },
+  {
+    "id": "train_1_27",
+    "category": "correction",
+    "text": "吴十原定去天津，后来改为去昆明参观展览，日期2026-11-28，预算4200元。",
+    "expected": {
+      "person": "吴十",
+      "date": "2026-11-28",
+      "location": "昆明",
+      "event": "参观展览",
+      "budget": 4200
+    }
+  },
+  {
+    "id": "train_1_28",
+    "category": "correction",
+    "text": "郑一原定去天津，后来改为去福州拜访客户，日期2026-11-01，预算4300元。",
+    "expected": {
+      "person": "郑一",
+      "date": "2026-11-01",
+      "location": "福州",
+      "event": "拜访客户",
+      "budget": 4300
+    }
+  },
+  {
+    "id": "train_1_29",
+    "category": "correction",
+    "text": "孙二原定去天津，后来改为去杭州参加讲座，日期2026-11-02，预算4400元。",
+    "expected": {
+      "person": "孙二",
+      "date": "2026-11-02",
+      "location": "杭州",
+      "event": "参加讲座",
+      "budget": 4400
+    }
+  },
+  {
+    "id": "train_2_00",
+    "category": "missing",
+    "text": "张三去苏州参加会议。旁人的出差预算为900元；张三没有提供自己的日期和预算。",
+    "expected": {
+      "person": "张三",
+      "date": null,
+      "location": "苏州",
+      "event": "参加会议",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_01",
+    "category": "missing",
+    "text": "李四去厦门参加培训。旁人的出差预算为900元；李四没有提供自己的日期和预算。",
+    "expected": {
+      "person": "李四",
+      "date": null,
+      "location": "厦门",
+      "event": "参加培训",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_02",
+    "category": "missing",
+    "text": "王五去青岛参观展览。旁人的出差预算为900元；王五没有提供自己的日期和预算。",
+    "expected": {
+      "person": "王五",
+      "date": null,
+      "location": "青岛",
+      "event": "参观展览",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_03",
+    "category": "missing",
+    "text": "赵六去长沙拜访客户。旁人的出差预算为900元；赵六没有提供自己的日期和预算。",
+    "expected": {
+      "person": "赵六",
+      "date": null,
+      "location": "长沙",
+      "event": "拜访客户",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_04",
+    "category": "missing",
+    "text": "陈七去合肥参加讲座。旁人的出差预算为900元；陈七没有提供自己的日期和预算。",
+    "expected": {
+      "person": "陈七",
+      "date": null,
+      "location": "合肥",
+      "event": "参加讲座",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_05",
+    "category": "missing",
+    "text": "刘八去宁波参加会议。旁人的出差预算为900元；刘八没有提供自己的日期和预算。",
+    "expected": {
+      "person": "刘八",
+      "date": null,
+      "location": "宁波",
+      "event": "参加会议",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_06",
+    "category": "missing",
+    "text": "周九去昆明参加培训。旁人的出差预算为900元；周九没有提供自己的日期和预算。",
+    "expected": {
+      "person": "周九",
+      "date": null,
+      "location": "昆明",
+      "event": "参加培训",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_07",
+    "category": "missing",
+    "text": "吴十去福州参观展览。旁人的出差预算为900元；吴十没有提供自己的日期和预算。",
+    "expected": {
+      "person": "吴十",
+      "date": null,
+      "location": "福州",
+      "event": "参观展览",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_08",
+    "category": "missing",
+    "text": "郑一去杭州拜访客户。旁人的出差预算为900元；郑一没有提供自己的日期和预算。",
+    "expected": {
+      "person": "郑一",
+      "date": null,
+      "location": "杭州",
+      "event": "拜访客户",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_09",
+    "category": "missing",
+    "text": "孙二去南京参加讲座。旁人的出差预算为900元；孙二没有提供自己的日期和预算。",
+    "expected": {
+      "person": "孙二",
+      "date": null,
+      "location": "南京",
+      "event": "参加讲座",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_10",
+    "category": "missing",
+    "text": "张三去苏州参加会议。旁人的出差预算为900元；张三没有提供自己的日期和预算。",
+    "expected": {
+      "person": "张三",
+      "date": null,
+      "location": "苏州",
+      "event": "参加会议",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_11",
+    "category": "missing",
+    "text": "李四去厦门参加培训。旁人的出差预算为900元；李四没有提供自己的日期和预算。",
+    "expected": {
+      "person": "李四",
+      "date": null,
+      "location": "厦门",
+      "event": "参加培训",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_12",
+    "category": "missing",
+    "text": "王五去青岛参观展览。旁人的出差预算为900元；王五没有提供自己的日期和预算。",
+    "expected": {
+      "person": "王五",
+      "date": null,
+      "location": "青岛",
+      "event": "参观展览",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_13",
+    "category": "missing",
+    "text": "赵六去长沙拜访客户。旁人的出差预算为900元；赵六没有提供自己的日期和预算。",
+    "expected": {
+      "person": "赵六",
+      "date": null,
+      "location": "长沙",
+      "event": "拜访客户",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_14",
+    "category": "missing",
+    "text": "陈七去合肥参加讲座。旁人的出差预算为900元；陈七没有提供自己的日期和预算。",
+    "expected": {
+      "person": "陈七",
+      "date": null,
+      "location": "合肥",
+      "event": "参加讲座",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_15",
+    "category": "missing",
+    "text": "刘八去宁波参加会议。旁人的出差预算为900元；刘八没有提供自己的日期和预算。",
+    "expected": {
+      "person": "刘八",
+      "date": null,
+      "location": "宁波",
+      "event": "参加会议",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_16",
+    "category": "missing",
+    "text": "周九去昆明参加培训。旁人的出差预算为900元；周九没有提供自己的日期和预算。",
+    "expected": {
+      "person": "周九",
+      "date": null,
+      "location": "昆明",
+      "event": "参加培训",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_17",
+    "category": "missing",
+    "text": "吴十去福州参观展览。旁人的出差预算为900元；吴十没有提供自己的日期和预算。",
+    "expected": {
+      "person": "吴十",
+      "date": null,
+      "location": "福州",
+      "event": "参观展览",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_18",
+    "category": "missing",
+    "text": "郑一去杭州拜访客户。旁人的出差预算为900元；郑一没有提供自己的日期和预算。",
+    "expected": {
+      "person": "郑一",
+      "date": null,
+      "location": "杭州",
+      "event": "拜访客户",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_19",
+    "category": "missing",
+    "text": "孙二去南京参加讲座。旁人的出差预算为900元；孙二没有提供自己的日期和预算。",
+    "expected": {
+      "person": "孙二",
+      "date": null,
+      "location": "南京",
+      "event": "参加讲座",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_20",
+    "category": "missing",
+    "text": "张三去苏州参加会议。旁人的出差预算为900元；张三没有提供自己的日期和预算。",
+    "expected": {
+      "person": "张三",
+      "date": null,
+      "location": "苏州",
+      "event": "参加会议",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_21",
+    "category": "missing",
+    "text": "李四去厦门参加培训。旁人的出差预算为900元；李四没有提供自己的日期和预算。",
+    "expected": {
+      "person": "李四",
+      "date": null,
+      "location": "厦门",
+      "event": "参加培训",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_22",
+    "category": "missing",
+    "text": "王五去青岛参观展览。旁人的出差预算为900元；王五没有提供自己的日期和预算。",
+    "expected": {
+      "person": "王五",
+      "date": null,
+      "location": "青岛",
+      "event": "参观展览",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_23",
+    "category": "missing",
+    "text": "赵六去长沙拜访客户。旁人的出差预算为900元；赵六没有提供自己的日期和预算。",
+    "expected": {
+      "person": "赵六",
+      "date": null,
+      "location": "长沙",
+      "event": "拜访客户",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_24",
+    "category": "missing",
+    "text": "陈七去合肥参加讲座。旁人的出差预算为900元；陈七没有提供自己的日期和预算。",
+    "expected": {
+      "person": "陈七",
+      "date": null,
+      "location": "合肥",
+      "event": "参加讲座",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_25",
+    "category": "missing",
+    "text": "刘八去宁波参加会议。旁人的出差预算为900元；刘八没有提供自己的日期和预算。",
+    "expected": {
+      "person": "刘八",
+      "date": null,
+      "location": "宁波",
+      "event": "参加会议",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_26",
+    "category": "missing",
+    "text": "周九去昆明参加培训。旁人的出差预算为900元；周九没有提供自己的日期和预算。",
+    "expected": {
+      "person": "周九",
+      "date": null,
+      "location": "昆明",
+      "event": "参加培训",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_27",
+    "category": "missing",
+    "text": "吴十去福州参观展览。旁人的出差预算为900元；吴十没有提供自己的日期和预算。",
+    "expected": {
+      "person": "吴十",
+      "date": null,
+      "location": "福州",
+      "event": "参观展览",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_28",
+    "category": "missing",
+    "text": "郑一去杭州拜访客户。旁人的出差预算为900元；郑一没有提供自己的日期和预算。",
+    "expected": {
+      "person": "郑一",
+      "date": null,
+      "location": "杭州",
+      "event": "拜访客户",
+      "budget": null
+    }
+  },
+  {
+    "id": "train_2_29",
+    "category": "missing",
+    "text": "孙二去南京参加讲座。旁人的出差预算为900元；孙二没有提供自己的日期和预算。",
+    "expected": {
+      "person": "孙二",
+      "date": null,
+      "location": "南京",
+      "event": "参加讲座",
+      "budget": null
+    }
+  }
+]
