@@ -1,0 +1,7290 @@
+[
+  {
+    "round": 1,
+    "id": "train_0_00",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-01\",\"location\":\"杭州\",\"event\":\"参加会议\",\"budget\":1500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-01",
+        "location": "杭州",
+        "event": "参加会议",
+        "budget": 1500
+      },
+      "seconds": 0.523,
+      "tokens": 82,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_01",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-02\",\"location\":\"南京\",\"event\":\"参加培训\",\"budget\":1600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-02",
+        "location": "南京",
+        "event": "参加培训",
+        "budget": 1600
+      },
+      "seconds": 0.508,
+      "tokens": 83,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_02",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-03\",\"location\":\"苏州\",\"event\":\"参观展览\",\"budget\":1700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-03",
+        "location": "苏州",
+        "event": "参观展览",
+        "budget": 1700
+      },
+      "seconds": 0.554,
+      "tokens": 91,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_03",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-04\",\"location\":\"厦门\",\"event\":\"拜访客户\",\"budget\":1800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-04",
+        "location": "厦门",
+        "event": "拜访客户",
+        "budget": 1800
+      },
+      "seconds": 0.567,
+      "tokens": 91,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_04",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-05\",\"location\":\"青岛\",\"event\":\"参加讲座\",\"budget\":1900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-05",
+        "location": "青岛",
+        "event": "参加讲座",
+        "budget": 1900
+      },
+      "seconds": 0.551,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_05",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-06\",\"location\":\"长沙\",\"event\":\"参加会议\",\"budget\":2000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-06",
+        "location": "长沙",
+        "event": "参加会议",
+        "budget": 2000
+      },
+      "seconds": 0.524,
+      "tokens": 86,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_06",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-07\",\"location\":\"合肥\",\"event\":\"参加培训\",\"budget\":2100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-07",
+        "location": "合肥",
+        "event": "参加培训",
+        "budget": 2100
+      },
+      "seconds": 0.52,
+      "tokens": 85,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_07",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-08\",\"location\":\"宁波\",\"event\":\"参观展览\",\"budget\":2200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-08",
+        "location": "宁波",
+        "event": "参观展览",
+        "budget": 2200
+      },
+      "seconds": 0.578,
+      "tokens": 91,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_08",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-09\",\"location\":\"昆明\",\"event\":\"拜访客户\",\"budget\":2300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-09",
+        "location": "昆明",
+        "event": "拜访客户",
+        "budget": 2300
+      },
+      "seconds": 0.553,
+      "tokens": 91,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_09",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-10\",\"location\":\"福州\",\"event\":\"参加讲座\",\"budget\":2400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-10",
+        "location": "福州",
+        "event": "参加讲座",
+        "budget": 2400
+      },
+      "seconds": 0.572,
+      "tokens": 90,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_10",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-11\",\"location\":\"杭州\",\"event\":\"参加会议\",\"budget\":2500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-11",
+        "location": "杭州",
+        "event": "参加会议",
+        "budget": 2500
+      },
+      "seconds": 0.504,
+      "tokens": 82,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_11",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-12\",\"location\":\"南京\",\"event\":\"参加培训\",\"budget\":2600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-12",
+        "location": "南京",
+        "event": "参加培训",
+        "budget": 2600
+      },
+      "seconds": 0.54,
+      "tokens": 85,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_12",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-13\",\"location\":\"苏州\",\"event\":\"参观展览\",\"budget\":2700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-13",
+        "location": "苏州",
+        "event": "参观展览",
+        "budget": 2700
+      },
+      "seconds": 0.553,
+      "tokens": 91,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_13",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-14\",\"location\":\"厦门\",\"event\":\"拜访客户\",\"budget\":2800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-14",
+        "location": "厦门",
+        "event": "拜访客户",
+        "budget": 2800
+      },
+      "seconds": 0.577,
+      "tokens": 91,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_14",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-15\",\"location\":\"青岛\",\"event\":\"参加讲座\",\"budget\":2900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-15",
+        "location": "青岛",
+        "event": "参加讲座",
+        "budget": 2900
+      },
+      "seconds": 0.549,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_15",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-16\",\"location\":\"长沙\",\"event\":\"参加会议\",\"budget\":3000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-16",
+        "location": "长沙",
+        "event": "参加会议",
+        "budget": 3000
+      },
+      "seconds": 0.536,
+      "tokens": 86,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_16",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-17\",\"location\":\"合肥\",\"event\":\"参加培训\",\"budget\":3100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-17",
+        "location": "合肥",
+        "event": "参加培训",
+        "budget": 3100
+      },
+      "seconds": 0.538,
+      "tokens": 85,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_17",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-18\",\"location\":\"宁波\",\"event\":\"参观展览\",\"budget\":3200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-18",
+        "location": "宁波",
+        "event": "参观展览",
+        "budget": 3200
+      },
+      "seconds": 0.553,
+      "tokens": 91,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_18",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-19\",\"location\":\"昆明\",\"event\":\"拜访客户\",\"budget\":3300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-19",
+        "location": "昆明",
+        "event": "拜访客户",
+        "budget": 3300
+      },
+      "seconds": 0.57,
+      "tokens": 91,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_19",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-20\",\"location\":\"福州\",\"event\":\"参加讲座\",\"budget\":3400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-20",
+        "location": "福州",
+        "event": "参加讲座",
+        "budget": 3400
+      },
+      "seconds": 0.55,
+      "tokens": 90,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_20",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-21\",\"location\":\"杭州\",\"event\":\"参加会议\",\"budget\":3500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-21",
+        "location": "杭州",
+        "event": "参加会议",
+        "budget": 3500
+      },
+      "seconds": 0.507,
+      "tokens": 82,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_21",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-22\",\"location\":\"南京\",\"event\":\"参加培训\",\"budget\":3600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-22",
+        "location": "南京",
+        "event": "参加培训",
+        "budget": 3600
+      },
+      "seconds": 0.52,
+      "tokens": 83,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_22",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-23\",\"location\":\"苏州\",\"event\":\"参观展览\",\"budget\":3700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-23",
+        "location": "苏州",
+        "event": "参观展览",
+        "budget": 3700
+      },
+      "seconds": 0.576,
+      "tokens": 91,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_23",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-24\",\"location\":\"厦门\",\"event\":\"拜访客户\",\"budget\":3800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-24",
+        "location": "厦门",
+        "event": "拜访客户",
+        "budget": 3800
+      },
+      "seconds": 0.554,
+      "tokens": 91,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_24",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-25\",\"location\":\"青岛\",\"event\":\"参加讲座\",\"budget\":3900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-25",
+        "location": "青岛",
+        "event": "参加讲座",
+        "budget": 3900
+      },
+      "seconds": 0.551,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_25",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-26\",\"location\":\"长沙\",\"event\":\"参加会议\",\"budget\":4000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-26",
+        "location": "长沙",
+        "event": "参加会议",
+        "budget": 4000
+      },
+      "seconds": 0.527,
+      "tokens": 86,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_26",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-27\",\"location\":\"合肥\",\"event\":\"参加培训\",\"budget\":4100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-27",
+        "location": "合肥",
+        "event": "参加培训",
+        "budget": 4100
+      },
+      "seconds": 0.531,
+      "tokens": 85,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_27",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-28\",\"location\":\"宁波\",\"event\":\"参观展览\",\"budget\":4200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-28",
+        "location": "宁波",
+        "event": "参观展览",
+        "budget": 4200
+      },
+      "seconds": 0.579,
+      "tokens": 91,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_28",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-01\",\"location\":\"昆明\",\"event\":\"拜访客户\",\"budget\":4300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-01",
+        "location": "昆明",
+        "event": "拜访客户",
+        "budget": 4300
+      },
+      "seconds": 0.551,
+      "tokens": 91,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_0_29",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-02\",\"location\":\"福州\",\"event\":\"参加讲座\",\"budget\":4400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-02",
+        "location": "福州",
+        "event": "参加讲座",
+        "budget": 4400
+      },
+      "seconds": 0.548,
+      "tokens": 88,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_00",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-01\",\"location\":\"南京\",\"event\":\"参加会议\",\"budget\":1500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-01",
+        "location": "南京",
+        "event": "参加会议",
+        "budget": 1500
+      },
+      "seconds": 0.307,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_01",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-02\",\"location\":\"苏州\",\"event\":\"参加培训\",\"budget\":1600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-02",
+        "location": "苏州",
+        "event": "参加培训",
+        "budget": 1600
+      },
+      "seconds": 0.536,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_02",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-03\",\"location\":\"厦门\",\"event\":\"参观展览\",\"budget\":1700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-03",
+        "location": "厦门",
+        "event": "参观展览",
+        "budget": 1700
+      },
+      "seconds": 0.562,
+      "tokens": 90,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_03",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-04\",\"location\":\"青岛\",\"event\":\"拜访客户\",\"budget\":1800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-04",
+        "location": "青岛",
+        "event": "拜访客户",
+        "budget": 1800
+      },
+      "seconds": 0.298,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_04",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-05\",\"location\":\"长沙\",\"event\":\"参加讲座\",\"budget\":1900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-05",
+        "location": "长沙",
+        "event": "参加讲座",
+        "budget": 1900
+      },
+      "seconds": 0.549,
+      "tokens": 88,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_05",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-06\",\"location\":\"合肥\",\"event\":\"参加会议\",\"budget\":2000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-06",
+        "location": "合肥",
+        "event": "参加会议",
+        "budget": 2000
+      },
+      "seconds": 0.558,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_06",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-07\",\"location\":\"宁波\",\"event\":\"参加培训\",\"budget\":2100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-07",
+        "location": "宁波",
+        "event": "参加培训",
+        "budget": 2100
+      },
+      "seconds": 0.551,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_07",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-08\",\"location\":\"昆明\",\"event\":\"参观展览\",\"budget\":2200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-08",
+        "location": "昆明",
+        "event": "参观展览",
+        "budget": 2200
+      },
+      "seconds": 0.562,
+      "tokens": 92,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_08",
+    "first": {
+      "raw": "{\"person\":\"郑一原\",\"date\":\"2026-11-09\",\"location\":\"福州\",\"event\":\"拜访客户\",\"budget\":2300}",
+      "parsed": {
+        "person": "郑一原",
+        "date": "2026-11-09",
+        "location": "福州",
+        "event": "拜访客户",
+        "budget": 2300
+      },
+      "seconds": 0.586,
+      "tokens": 92,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "person: 实际 '郑一原'，标准 '郑一'"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-09\",\"location\":\"福州\",\"event\":\"拜访客户\",\"budget\":2300}",
+          "parsed": {
+            "person": "郑一",
+            "date": "2026-11-09",
+            "location": "福州",
+            "event": "拜访客户",
+            "budget": 2300
+          },
+          "seconds": 0.496,
+          "tokens": 76,
+          "done_reason": "stop"
+        },
+        "errors": []
+      }
+    ],
+    "candidate": {
+      "rule": "在提取人名时，只保留标准姓名的核心部分，去除后缀或多余字符（如‘原’、‘先生’等），以确保提取结果与标准姓名一致。",
+      "accepted": false,
+      "before": 0.9333333333333333,
+      "after": 0.8333333333333334,
+      "no_regression": false
+    }
+  },
+  {
+    "round": 1,
+    "id": "train_1_09",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-10\",\"location\":\"杭州\",\"event\":\"参加讲座\",\"budget\":2400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-10",
+        "location": "杭州",
+        "event": "参加讲座",
+        "budget": 2400
+      },
+      "seconds": 0.545,
+      "tokens": 88,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_10",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-11\",\"location\":\"南京\",\"event\":\"参加会议\",\"budget\":2500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-11",
+        "location": "南京",
+        "event": "参加会议",
+        "budget": 2500
+      },
+      "seconds": 0.52,
+      "tokens": 83,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_11",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-12\",\"location\":\"苏州\",\"event\":\"参加培训\",\"budget\":2600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-12",
+        "location": "苏州",
+        "event": "参加培训",
+        "budget": 2600
+      },
+      "seconds": 0.537,
+      "tokens": 85,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_12",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-13\",\"location\":\"厦门\",\"event\":\"参观展览\",\"budget\":2700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-13",
+        "location": "厦门",
+        "event": "参观展览",
+        "budget": 2700
+      },
+      "seconds": 0.565,
+      "tokens": 90,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_13",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-14\",\"location\":\"青岛\",\"event\":\"拜访客户\",\"budget\":2800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-14",
+        "location": "青岛",
+        "event": "拜访客户",
+        "budget": 2800
+      },
+      "seconds": 0.575,
+      "tokens": 90,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_14",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-15\",\"location\":\"长沙\",\"event\":\"参加讲座\",\"budget\":2900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-15",
+        "location": "长沙",
+        "event": "参加讲座",
+        "budget": 2900
+      },
+      "seconds": 0.528,
+      "tokens": 86,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_15",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-16\",\"location\":\"合肥\",\"event\":\"参加会议\",\"budget\":3000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-16",
+        "location": "合肥",
+        "event": "参加会议",
+        "budget": 3000
+      },
+      "seconds": 0.294,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_16",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-17\",\"location\":\"宁波\",\"event\":\"参加培训\",\"budget\":3100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-17",
+        "location": "宁波",
+        "event": "参加培训",
+        "budget": 3100
+      },
+      "seconds": 0.542,
+      "tokens": 85,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_17",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-18\",\"location\":\"昆明\",\"event\":\"参观展览\",\"budget\":3200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-18",
+        "location": "昆明",
+        "event": "参观展览",
+        "budget": 3200
+      },
+      "seconds": 0.586,
+      "tokens": 92,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_18",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-19\",\"location\":\"福州\",\"event\":\"拜访客户\",\"budget\":3300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-19",
+        "location": "福州",
+        "event": "拜访客户",
+        "budget": 3300
+      },
+      "seconds": 0.314,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_19",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-20\",\"location\":\"杭州\",\"event\":\"参加讲座\",\"budget\":3400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-20",
+        "location": "杭州",
+        "event": "参加讲座",
+        "budget": 3400
+      },
+      "seconds": 0.563,
+      "tokens": 90,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_20",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-21\",\"location\":\"南京\",\"event\":\"参加会议\",\"budget\":3500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-21",
+        "location": "南京",
+        "event": "参加会议",
+        "budget": 3500
+      },
+      "seconds": 0.309,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_21",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-22\",\"location\":\"苏州\",\"event\":\"参加培训\",\"budget\":3600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-22",
+        "location": "苏州",
+        "event": "参加培训",
+        "budget": 3600
+      },
+      "seconds": 0.52,
+      "tokens": 85,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_22",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-23\",\"location\":\"厦门\",\"event\":\"参观展览\",\"budget\":3700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-23",
+        "location": "厦门",
+        "event": "参观展览",
+        "budget": 3700
+      },
+      "seconds": 0.569,
+      "tokens": 90,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_23",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-24\",\"location\":\"青岛\",\"event\":\"拜访客户\",\"budget\":3800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-24",
+        "location": "青岛",
+        "event": "拜访客户",
+        "budget": 3800
+      },
+      "seconds": 0.298,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_24",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-25\",\"location\":\"长沙\",\"event\":\"参加讲座\",\"budget\":3900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-25",
+        "location": "长沙",
+        "event": "参加讲座",
+        "budget": 3900
+      },
+      "seconds": 0.561,
+      "tokens": 88,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_25",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-26\",\"location\":\"合肥\",\"event\":\"参加会议\",\"budget\":\"4000\"}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-26",
+        "location": "合肥",
+        "event": "参加会议",
+        "budget": "4000"
+      },
+      "seconds": 0.306,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 '4000'，标准 4000"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-26\",\"location\":\"合肥\",\"event\":\"参加会议\",\"budget\":4000}",
+          "parsed": {
+            "person": "刘八",
+            "date": "2026-11-26",
+            "location": "合肥",
+            "event": "参加会议",
+            "budget": 4000
+          },
+          "seconds": 0.39,
+          "tokens": 56,
+          "done_reason": "stop"
+        },
+        "errors": []
+      }
+    ],
+    "candidate": {
+      "rule": "预算字段应提取为数值类型（整数或浮点数），不包含单位或引号。",
+      "accepted": true,
+      "before": 0.9333333333333333,
+      "after": 0.9666666666666667,
+      "no_regression": true
+    }
+  },
+  {
+    "round": 1,
+    "id": "train_1_26",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-27\",\"location\":\"宁波\",\"event\":\"参加培训\",\"budget\":4100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-27",
+        "location": "宁波",
+        "event": "参加培训",
+        "budget": 4100
+      },
+      "seconds": 0.293,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_27",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-28\",\"location\":\"昆明\",\"event\":\"参观展览\",\"budget\":4200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-28",
+        "location": "昆明",
+        "event": "参观展览",
+        "budget": 4200
+      },
+      "seconds": 0.326,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_28",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-01\",\"location\":\"福州\",\"event\":\"拜访客户\",\"budget\":4300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-01",
+        "location": "福州",
+        "event": "拜访客户",
+        "budget": 4300
+      },
+      "seconds": 0.556,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_1_29",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-02\",\"location\":\"杭州\",\"event\":\"参加讲座\",\"budget\":4400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-02",
+        "location": "杭州",
+        "event": "参加讲座",
+        "budget": 4400
+      },
+      "seconds": 0.294,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_2_00",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "张三",
+        "date": null,
+        "location": "苏州",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.425,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.485,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.44,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_01",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+      "parsed": {
+        "person": "李四",
+        "date": null,
+        "location": "厦门",
+        "event": "参加培训",
+        "budget": 900
+      },
+      "seconds": 0.87,
+      "tokens": 145,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.491,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.457,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_02",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":null,\"location\":\"青岛\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "王五",
+        "date": null,
+        "location": "青岛",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.598,
+      "tokens": 98,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_2_03",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":null,\"location\":\"长沙\",\"event\":\"拜访客户\",\"budget\":null}",
+      "parsed": {
+        "person": "赵六",
+        "date": null,
+        "location": "长沙",
+        "event": "拜访客户",
+        "budget": null
+      },
+      "seconds": 0.879,
+      "tokens": 143,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_2_04",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "陈七",
+        "date": null,
+        "location": "合肥",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.454,
+      "tokens": 73,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.492,
+          "tokens": 76,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.325,
+          "tokens": 55,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_05",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "刘八",
+        "date": null,
+        "location": "宁波",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.423,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.482,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.452,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_06",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":null,\"location\":\"昆明\",\"event\":\"参加培训\",\"budget\":null}",
+      "parsed": {
+        "person": "周九",
+        "date": null,
+        "location": "昆明",
+        "event": "参加培训",
+        "budget": null
+      },
+      "seconds": 1.078,
+      "tokens": 181,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_2_07",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":null,\"location\":\"福州\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "吴十",
+        "date": null,
+        "location": "福州",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.613,
+      "tokens": 97,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_2_08",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+      "parsed": {
+        "person": "郑一",
+        "date": null,
+        "location": "杭州",
+        "event": "拜访客户",
+        "budget": 900
+      },
+      "seconds": 0.396,
+      "tokens": 61,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.578,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.569,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_09",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "孙二",
+        "date": null,
+        "location": "南京",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.426,
+      "tokens": 65,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.499,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.465,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_10",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "张三",
+        "date": null,
+        "location": "苏州",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.416,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.484,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.452,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_11",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+      "parsed": {
+        "person": "李四",
+        "date": null,
+        "location": "厦门",
+        "event": "参加培训",
+        "budget": 900
+      },
+      "seconds": 0.879,
+      "tokens": 145,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.472,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.438,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_12",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":null,\"location\":\"青岛\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "王五",
+        "date": null,
+        "location": "青岛",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.608,
+      "tokens": 98,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_2_13",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":null,\"location\":\"长沙\",\"event\":\"拜访客户\",\"budget\":null}",
+      "parsed": {
+        "person": "赵六",
+        "date": null,
+        "location": "长沙",
+        "event": "拜访客户",
+        "budget": null
+      },
+      "seconds": 0.875,
+      "tokens": 143,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_2_14",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "陈七",
+        "date": null,
+        "location": "合肥",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.47,
+      "tokens": 73,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.492,
+          "tokens": 76,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.342,
+          "tokens": 55,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_15",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "刘八",
+        "date": null,
+        "location": "宁波",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.405,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.483,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.452,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_16",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":null,\"location\":\"昆明\",\"event\":\"参加培训\",\"budget\":null}",
+      "parsed": {
+        "person": "周九",
+        "date": null,
+        "location": "昆明",
+        "event": "参加培训",
+        "budget": null
+      },
+      "seconds": 1.084,
+      "tokens": 181,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_2_17",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":null,\"location\":\"福州\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "吴十",
+        "date": null,
+        "location": "福州",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.606,
+      "tokens": 97,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_2_18",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+      "parsed": {
+        "person": "郑一",
+        "date": null,
+        "location": "杭州",
+        "event": "拜访客户",
+        "budget": 900
+      },
+      "seconds": 0.402,
+      "tokens": 61,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.599,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.564,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_19",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "孙二",
+        "date": null,
+        "location": "南京",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.427,
+      "tokens": 65,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.498,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.468,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_20",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "张三",
+        "date": null,
+        "location": "苏州",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.415,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.486,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.452,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_21",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+      "parsed": {
+        "person": "李四",
+        "date": null,
+        "location": "厦门",
+        "event": "参加培训",
+        "budget": 900
+      },
+      "seconds": 0.879,
+      "tokens": 145,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.487,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.452,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_22",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":null,\"location\":\"青岛\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "王五",
+        "date": null,
+        "location": "青岛",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.609,
+      "tokens": 98,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_2_23",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":null,\"location\":\"长沙\",\"event\":\"拜访客户\",\"budget\":null}",
+      "parsed": {
+        "person": "赵六",
+        "date": null,
+        "location": "长沙",
+        "event": "拜访客户",
+        "budget": null
+      },
+      "seconds": 0.861,
+      "tokens": 143,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_2_24",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "陈七",
+        "date": null,
+        "location": "合肥",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.467,
+      "tokens": 73,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.477,
+          "tokens": 76,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.352,
+          "tokens": 55,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_25",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "刘八",
+        "date": null,
+        "location": "宁波",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.413,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.486,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.449,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_26",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":null,\"location\":\"昆明\",\"event\":\"参加培训\",\"budget\":null}",
+      "parsed": {
+        "person": "周九",
+        "date": null,
+        "location": "昆明",
+        "event": "参加培训",
+        "budget": null
+      },
+      "seconds": 1.07,
+      "tokens": 181,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_2_27",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":null,\"location\":\"福州\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "吴十",
+        "date": null,
+        "location": "福州",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.59,
+      "tokens": 97,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 1,
+    "id": "train_2_28",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+      "parsed": {
+        "person": "郑一",
+        "date": null,
+        "location": "杭州",
+        "event": "拜访客户",
+        "budget": 900
+      },
+      "seconds": 0.401,
+      "tokens": 61,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.595,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.566,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 1,
+    "id": "train_2_29",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "孙二",
+        "date": null,
+        "location": "南京",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.44,
+      "tokens": 65,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.514,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.462,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_0_00",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-01\",\"location\":\"杭州\",\"event\":\"参加会议\",\"budget\":1500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-01",
+        "location": "杭州",
+        "event": "参加会议",
+        "budget": 1500
+      },
+      "seconds": 0.308,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_01",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-02\",\"location\":\"南京\",\"event\":\"参加培训\",\"budget\":1600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-02",
+        "location": "南京",
+        "event": "参加培训",
+        "budget": 1600
+      },
+      "seconds": 0.308,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_02",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-03\",\"location\":\"苏州\",\"event\":\"参观展览\",\"budget\":1700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-03",
+        "location": "苏州",
+        "event": "参观展览",
+        "budget": 1700
+      },
+      "seconds": 0.328,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_03",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-04\",\"location\":\"厦门\",\"event\":\"拜访客户\",\"budget\":1800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-04",
+        "location": "厦门",
+        "event": "拜访客户",
+        "budget": 1800
+      },
+      "seconds": 0.315,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_04",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-05\",\"location\":\"青岛\",\"event\":\"参加讲座\",\"budget\":1900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-05",
+        "location": "青岛",
+        "event": "参加讲座",
+        "budget": 1900
+      },
+      "seconds": 0.302,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_05",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-06\",\"location\":\"长沙\",\"event\":\"参加会议\",\"budget\":2000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-06",
+        "location": "长沙",
+        "event": "参加会议",
+        "budget": 2000
+      },
+      "seconds": 0.3,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_06",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-07\",\"location\":\"合肥\",\"event\":\"参加培训\",\"budget\":2100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-07",
+        "location": "合肥",
+        "event": "参加培训",
+        "budget": 2100
+      },
+      "seconds": 0.302,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_07",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-08\",\"location\":\"宁波\",\"event\":\"参观展览\",\"budget\":2200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-08",
+        "location": "宁波",
+        "event": "参观展览",
+        "budget": 2200
+      },
+      "seconds": 0.328,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_08",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-09\",\"location\":\"昆明\",\"event\":\"拜访客户\",\"budget\":2300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-09",
+        "location": "昆明",
+        "event": "拜访客户",
+        "budget": 2300
+      },
+      "seconds": 0.318,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_09",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-10\",\"location\":\"福州\",\"event\":\"参加讲座\",\"budget\":2400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-10",
+        "location": "福州",
+        "event": "参加讲座",
+        "budget": 2400
+      },
+      "seconds": 0.32,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_10",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-11\",\"location\":\"杭州\",\"event\":\"参加会议\",\"budget\":2500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-11",
+        "location": "杭州",
+        "event": "参加会议",
+        "budget": 2500
+      },
+      "seconds": 0.298,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_11",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-12\",\"location\":\"南京\",\"event\":\"参加培训\",\"budget\":2600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-12",
+        "location": "南京",
+        "event": "参加培训",
+        "budget": 2600
+      },
+      "seconds": 0.296,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_12",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-13\",\"location\":\"苏州\",\"event\":\"参观展览\",\"budget\":2700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-13",
+        "location": "苏州",
+        "event": "参观展览",
+        "budget": 2700
+      },
+      "seconds": 0.327,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_13",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-14\",\"location\":\"厦门\",\"event\":\"拜访客户\",\"budget\":2800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-14",
+        "location": "厦门",
+        "event": "拜访客户",
+        "budget": 2800
+      },
+      "seconds": 0.299,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_14",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-15\",\"location\":\"青岛\",\"event\":\"参加讲座\",\"budget\":2900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-15",
+        "location": "青岛",
+        "event": "参加讲座",
+        "budget": 2900
+      },
+      "seconds": 0.315,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_15",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-16\",\"location\":\"长沙\",\"event\":\"参加会议\",\"budget\":3000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-16",
+        "location": "长沙",
+        "event": "参加会议",
+        "budget": 3000
+      },
+      "seconds": 0.31,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_16",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-17\",\"location\":\"合肥\",\"event\":\"参加培训\",\"budget\":3100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-17",
+        "location": "合肥",
+        "event": "参加培训",
+        "budget": 3100
+      },
+      "seconds": 0.314,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_17",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-18\",\"location\":\"宁波\",\"event\":\"参观展览\",\"budget\":3200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-18",
+        "location": "宁波",
+        "event": "参观展览",
+        "budget": 3200
+      },
+      "seconds": 0.306,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_18",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-19\",\"location\":\"昆明\",\"event\":\"拜访客户\",\"budget\":3300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-19",
+        "location": "昆明",
+        "event": "拜访客户",
+        "budget": 3300
+      },
+      "seconds": 0.318,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_19",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-20\",\"location\":\"福州\",\"event\":\"参加讲座\",\"budget\":3400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-20",
+        "location": "福州",
+        "event": "参加讲座",
+        "budget": 3400
+      },
+      "seconds": 0.321,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_20",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-21\",\"location\":\"杭州\",\"event\":\"参加会议\",\"budget\":3500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-21",
+        "location": "杭州",
+        "event": "参加会议",
+        "budget": 3500
+      },
+      "seconds": 0.295,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_21",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-22\",\"location\":\"南京\",\"event\":\"参加培训\",\"budget\":3600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-22",
+        "location": "南京",
+        "event": "参加培训",
+        "budget": 3600
+      },
+      "seconds": 0.309,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_22",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-23\",\"location\":\"苏州\",\"event\":\"参观展览\",\"budget\":3700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-23",
+        "location": "苏州",
+        "event": "参观展览",
+        "budget": 3700
+      },
+      "seconds": 0.304,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_23",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-24\",\"location\":\"厦门\",\"event\":\"拜访客户\",\"budget\":3800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-24",
+        "location": "厦门",
+        "event": "拜访客户",
+        "budget": 3800
+      },
+      "seconds": 0.301,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_24",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-25\",\"location\":\"青岛\",\"event\":\"参加讲座\",\"budget\":3900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-25",
+        "location": "青岛",
+        "event": "参加讲座",
+        "budget": 3900
+      },
+      "seconds": 0.326,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_25",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-26\",\"location\":\"长沙\",\"event\":\"参加会议\",\"budget\":4000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-26",
+        "location": "长沙",
+        "event": "参加会议",
+        "budget": 4000
+      },
+      "seconds": 0.307,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_26",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-27\",\"location\":\"合肥\",\"event\":\"参加培训\",\"budget\":4100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-27",
+        "location": "合肥",
+        "event": "参加培训",
+        "budget": 4100
+      },
+      "seconds": 0.303,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_27",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-28\",\"location\":\"宁波\",\"event\":\"参观展览\",\"budget\":4200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-28",
+        "location": "宁波",
+        "event": "参观展览",
+        "budget": 4200
+      },
+      "seconds": 0.304,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_28",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-01\",\"location\":\"昆明\",\"event\":\"拜访客户\",\"budget\":4300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-01",
+        "location": "昆明",
+        "event": "拜访客户",
+        "budget": 4300
+      },
+      "seconds": 0.299,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_0_29",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-02\",\"location\":\"福州\",\"event\":\"参加讲座\",\"budget\":4400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-02",
+        "location": "福州",
+        "event": "参加讲座",
+        "budget": 4400
+      },
+      "seconds": 0.314,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_00",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-01\",\"location\":\"南京\",\"event\":\"参加会议\",\"budget\":1500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-01",
+        "location": "南京",
+        "event": "参加会议",
+        "budget": 1500
+      },
+      "seconds": 0.314,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_01",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-02\",\"location\":\"苏州\",\"event\":\"参加培训\",\"budget\":1600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-02",
+        "location": "苏州",
+        "event": "参加培训",
+        "budget": 1600
+      },
+      "seconds": 0.294,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_02",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-03\",\"location\":\"厦门\",\"event\":\"参观展览\",\"budget\":1700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-03",
+        "location": "厦门",
+        "event": "参观展览",
+        "budget": 1700
+      },
+      "seconds": 0.303,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_03",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-04\",\"location\":\"青岛\",\"event\":\"拜访客户\",\"budget\":1800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-04",
+        "location": "青岛",
+        "event": "拜访客户",
+        "budget": 1800
+      },
+      "seconds": 0.316,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_04",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-05\",\"location\":\"长沙\",\"event\":\"参加讲座\",\"budget\":1900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-05",
+        "location": "长沙",
+        "event": "参加讲座",
+        "budget": 1900
+      },
+      "seconds": 0.294,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_05",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-06\",\"location\":\"合肥\",\"event\":\"参加会议\",\"budget\":2000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-06",
+        "location": "合肥",
+        "event": "参加会议",
+        "budget": 2000
+      },
+      "seconds": 0.314,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_06",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-07\",\"location\":\"宁波\",\"event\":\"参加培训\",\"budget\":2100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-07",
+        "location": "宁波",
+        "event": "参加培训",
+        "budget": 2100
+      },
+      "seconds": 0.309,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_07",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-08\",\"location\":\"昆明\",\"event\":\"参观展览\",\"budget\":2200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-08",
+        "location": "昆明",
+        "event": "参观展览",
+        "budget": 2200
+      },
+      "seconds": 0.32,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_08",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-09\",\"location\":\"福州\",\"event\":\"拜访客户\",\"budget\":2300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-09",
+        "location": "福州",
+        "event": "拜访客户",
+        "budget": 2300
+      },
+      "seconds": 0.532,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_09",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-10\",\"location\":\"杭州\",\"event\":\"参加讲座\",\"budget\":2400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-10",
+        "location": "杭州",
+        "event": "参加讲座",
+        "budget": 2400
+      },
+      "seconds": 0.311,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_10",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-11\",\"location\":\"南京\",\"event\":\"参加会议\",\"budget\":2500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-11",
+        "location": "南京",
+        "event": "参加会议",
+        "budget": 2500
+      },
+      "seconds": 0.3,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_11",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-12\",\"location\":\"苏州\",\"event\":\"参加培训\",\"budget\":2600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-12",
+        "location": "苏州",
+        "event": "参加培训",
+        "budget": 2600
+      },
+      "seconds": 0.314,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_12",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-13\",\"location\":\"厦门\",\"event\":\"参观展览\",\"budget\":2700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-13",
+        "location": "厦门",
+        "event": "参观展览",
+        "budget": 2700
+      },
+      "seconds": 0.326,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_13",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-14\",\"location\":\"青岛\",\"event\":\"拜访客户\",\"budget\":2800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-14",
+        "location": "青岛",
+        "event": "拜访客户",
+        "budget": 2800
+      },
+      "seconds": 0.547,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_14",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-15\",\"location\":\"长沙\",\"event\":\"参加讲座\",\"budget\":2900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-15",
+        "location": "长沙",
+        "event": "参加讲座",
+        "budget": 2900
+      },
+      "seconds": 0.308,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_15",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-16\",\"location\":\"合肥\",\"event\":\"参加会议\",\"budget\":3000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-16",
+        "location": "合肥",
+        "event": "参加会议",
+        "budget": 3000
+      },
+      "seconds": 0.308,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_16",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-17\",\"location\":\"宁波\",\"event\":\"参加培训\",\"budget\":3100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-17",
+        "location": "宁波",
+        "event": "参加培训",
+        "budget": 3100
+      },
+      "seconds": 0.305,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_17",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-18\",\"location\":\"昆明\",\"event\":\"参观展览\",\"budget\":3200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-18",
+        "location": "昆明",
+        "event": "参观展览",
+        "budget": 3200
+      },
+      "seconds": 0.326,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_18",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-19\",\"location\":\"福州\",\"event\":\"拜访客户\",\"budget\":3300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-19",
+        "location": "福州",
+        "event": "拜访客户",
+        "budget": 3300
+      },
+      "seconds": 0.533,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_19",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-20\",\"location\":\"杭州\",\"event\":\"参加讲座\",\"budget\":3400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-20",
+        "location": "杭州",
+        "event": "参加讲座",
+        "budget": 3400
+      },
+      "seconds": 0.311,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_20",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-21\",\"location\":\"南京\",\"event\":\"参加会议\",\"budget\":3500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-21",
+        "location": "南京",
+        "event": "参加会议",
+        "budget": 3500
+      },
+      "seconds": 0.308,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_21",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-22\",\"location\":\"苏州\",\"event\":\"参加培训\",\"budget\":3600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-22",
+        "location": "苏州",
+        "event": "参加培训",
+        "budget": 3600
+      },
+      "seconds": 0.312,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_22",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-23\",\"location\":\"厦门\",\"event\":\"参观展览\",\"budget\":3700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-23",
+        "location": "厦门",
+        "event": "参观展览",
+        "budget": 3700
+      },
+      "seconds": 0.33,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_23",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-24\",\"location\":\"青岛\",\"event\":\"拜访客户\",\"budget\":3800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-24",
+        "location": "青岛",
+        "event": "拜访客户",
+        "budget": 3800
+      },
+      "seconds": 0.564,
+      "tokens": 89,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_24",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-25\",\"location\":\"长沙\",\"event\":\"参加讲座\",\"budget\":3900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-25",
+        "location": "长沙",
+        "event": "参加讲座",
+        "budget": 3900
+      },
+      "seconds": 0.316,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_25",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-26\",\"location\":\"合肥\",\"event\":\"参加会议\",\"budget\":4000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-26",
+        "location": "合肥",
+        "event": "参加会议",
+        "budget": 4000
+      },
+      "seconds": 0.31,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_26",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-27\",\"location\":\"宁波\",\"event\":\"参加培训\",\"budget\":4100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-27",
+        "location": "宁波",
+        "event": "参加培训",
+        "budget": 4100
+      },
+      "seconds": 0.31,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_27",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-28\",\"location\":\"昆明\",\"event\":\"参观展览\",\"budget\":4200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-28",
+        "location": "昆明",
+        "event": "参观展览",
+        "budget": 4200
+      },
+      "seconds": 0.322,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_28",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-01\",\"location\":\"福州\",\"event\":\"拜访客户\",\"budget\":4300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-01",
+        "location": "福州",
+        "event": "拜访客户",
+        "budget": 4300
+      },
+      "seconds": 0.554,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_1_29",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-02\",\"location\":\"杭州\",\"event\":\"参加讲座\",\"budget\":4400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-02",
+        "location": "杭州",
+        "event": "参加讲座",
+        "budget": 4400
+      },
+      "seconds": 0.306,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_2_00",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "张三",
+        "date": null,
+        "location": "苏州",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.415,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.468,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.452,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_01",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+      "parsed": {
+        "person": "李四",
+        "date": null,
+        "location": "厦门",
+        "event": "参加培训",
+        "budget": 900
+      },
+      "seconds": 0.878,
+      "tokens": 145,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.484,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.452,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_02",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":null,\"location\":\"青岛\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "王五",
+        "date": null,
+        "location": "青岛",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.62,
+      "tokens": 98,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_2_03",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":null,\"location\":\"长沙\",\"event\":\"拜访客户\",\"budget\":null}",
+      "parsed": {
+        "person": "赵六",
+        "date": null,
+        "location": "长沙",
+        "event": "拜访客户",
+        "budget": null
+      },
+      "seconds": 0.872,
+      "tokens": 143,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_2_04",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "陈七",
+        "date": null,
+        "location": "合肥",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.455,
+      "tokens": 73,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.493,
+          "tokens": 76,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.342,
+          "tokens": 55,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_05",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "刘八",
+        "date": null,
+        "location": "宁波",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.417,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.481,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.433,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_06",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":null,\"location\":\"昆明\",\"event\":\"参加培训\",\"budget\":null}",
+      "parsed": {
+        "person": "周九",
+        "date": null,
+        "location": "昆明",
+        "event": "参加培训",
+        "budget": null
+      },
+      "seconds": 1.07,
+      "tokens": 181,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_2_07",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":null,\"location\":\"福州\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "吴十",
+        "date": null,
+        "location": "福州",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.611,
+      "tokens": 97,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_2_08",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+      "parsed": {
+        "person": "郑一",
+        "date": null,
+        "location": "杭州",
+        "event": "拜访客户",
+        "budget": 900
+      },
+      "seconds": 0.4,
+      "tokens": 61,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.6,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.574,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_09",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "孙二",
+        "date": null,
+        "location": "南京",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.429,
+      "tokens": 65,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.496,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.473,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_10",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "张三",
+        "date": null,
+        "location": "苏州",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.402,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.478,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.453,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_11",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+      "parsed": {
+        "person": "李四",
+        "date": null,
+        "location": "厦门",
+        "event": "参加培训",
+        "budget": 900
+      },
+      "seconds": 0.863,
+      "tokens": 145,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.474,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.442,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_12",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":null,\"location\":\"青岛\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "王五",
+        "date": null,
+        "location": "青岛",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.613,
+      "tokens": 98,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_2_13",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":null,\"location\":\"长沙\",\"event\":\"拜访客户\",\"budget\":null}",
+      "parsed": {
+        "person": "赵六",
+        "date": null,
+        "location": "长沙",
+        "event": "拜访客户",
+        "budget": null
+      },
+      "seconds": 0.854,
+      "tokens": 143,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_2_14",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "陈七",
+        "date": null,
+        "location": "合肥",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.479,
+      "tokens": 73,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.479,
+          "tokens": 76,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.339,
+          "tokens": 55,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_15",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "刘八",
+        "date": null,
+        "location": "宁波",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.401,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.48,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.449,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_16",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":null,\"location\":\"昆明\",\"event\":\"参加培训\",\"budget\":null}",
+      "parsed": {
+        "person": "周九",
+        "date": null,
+        "location": "昆明",
+        "event": "参加培训",
+        "budget": null
+      },
+      "seconds": 1.087,
+      "tokens": 181,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_2_17",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":null,\"location\":\"福州\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "吴十",
+        "date": null,
+        "location": "福州",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.605,
+      "tokens": 97,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_2_18",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+      "parsed": {
+        "person": "郑一",
+        "date": null,
+        "location": "杭州",
+        "event": "拜访客户",
+        "budget": 900
+      },
+      "seconds": 0.409,
+      "tokens": 61,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.6,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.549,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_19",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "孙二",
+        "date": null,
+        "location": "南京",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.409,
+      "tokens": 65,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.495,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.469,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_20",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "张三",
+        "date": null,
+        "location": "苏州",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.415,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.484,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.454,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_21",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+      "parsed": {
+        "person": "李四",
+        "date": null,
+        "location": "厦门",
+        "event": "参加培训",
+        "budget": 900
+      },
+      "seconds": 0.868,
+      "tokens": 145,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.471,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.453,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_22",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":null,\"location\":\"青岛\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "王五",
+        "date": null,
+        "location": "青岛",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.622,
+      "tokens": 98,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_2_23",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":null,\"location\":\"长沙\",\"event\":\"拜访客户\",\"budget\":null}",
+      "parsed": {
+        "person": "赵六",
+        "date": null,
+        "location": "长沙",
+        "event": "拜访客户",
+        "budget": null
+      },
+      "seconds": 0.876,
+      "tokens": 143,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_2_24",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "陈七",
+        "date": null,
+        "location": "合肥",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.469,
+      "tokens": 73,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.49,
+          "tokens": 76,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.35,
+          "tokens": 55,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_25",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "刘八",
+        "date": null,
+        "location": "宁波",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.415,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.466,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.435,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_26",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":null,\"location\":\"昆明\",\"event\":\"参加培训\",\"budget\":null}",
+      "parsed": {
+        "person": "周九",
+        "date": null,
+        "location": "昆明",
+        "event": "参加培训",
+        "budget": null
+      },
+      "seconds": 1.085,
+      "tokens": 181,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_2_27",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":null,\"location\":\"福州\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "吴十",
+        "date": null,
+        "location": "福州",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.592,
+      "tokens": 97,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 2,
+    "id": "train_2_28",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+      "parsed": {
+        "person": "郑一",
+        "date": null,
+        "location": "杭州",
+        "event": "拜访客户",
+        "budget": 900
+      },
+      "seconds": 0.4,
+      "tokens": 61,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.6,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.561,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "id": "train_2_29",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "孙二",
+        "date": null,
+        "location": "南京",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.43,
+      "tokens": 65,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.507,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.466,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_0_00",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-01\",\"location\":\"杭州\",\"event\":\"参加会议\",\"budget\":1500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-01",
+        "location": "杭州",
+        "event": "参加会议",
+        "budget": 1500
+      },
+      "seconds": 0.302,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_01",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-02\",\"location\":\"南京\",\"event\":\"参加培训\",\"budget\":1600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-02",
+        "location": "南京",
+        "event": "参加培训",
+        "budget": 1600
+      },
+      "seconds": 0.303,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_02",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-03\",\"location\":\"苏州\",\"event\":\"参观展览\",\"budget\":1700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-03",
+        "location": "苏州",
+        "event": "参观展览",
+        "budget": 1700
+      },
+      "seconds": 0.331,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_03",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-04\",\"location\":\"厦门\",\"event\":\"拜访客户\",\"budget\":1800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-04",
+        "location": "厦门",
+        "event": "拜访客户",
+        "budget": 1800
+      },
+      "seconds": 0.318,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_04",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-05\",\"location\":\"青岛\",\"event\":\"参加讲座\",\"budget\":1900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-05",
+        "location": "青岛",
+        "event": "参加讲座",
+        "budget": 1900
+      },
+      "seconds": 0.307,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_05",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-06\",\"location\":\"长沙\",\"event\":\"参加会议\",\"budget\":2000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-06",
+        "location": "长沙",
+        "event": "参加会议",
+        "budget": 2000
+      },
+      "seconds": 0.289,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_06",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-07\",\"location\":\"合肥\",\"event\":\"参加培训\",\"budget\":2100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-07",
+        "location": "合肥",
+        "event": "参加培训",
+        "budget": 2100
+      },
+      "seconds": 0.292,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_07",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-08\",\"location\":\"宁波\",\"event\":\"参观展览\",\"budget\":2200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-08",
+        "location": "宁波",
+        "event": "参观展览",
+        "budget": 2200
+      },
+      "seconds": 0.304,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_08",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-09\",\"location\":\"昆明\",\"event\":\"拜访客户\",\"budget\":2300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-09",
+        "location": "昆明",
+        "event": "拜访客户",
+        "budget": 2300
+      },
+      "seconds": 0.321,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_09",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-10\",\"location\":\"福州\",\"event\":\"参加讲座\",\"budget\":2400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-10",
+        "location": "福州",
+        "event": "参加讲座",
+        "budget": 2400
+      },
+      "seconds": 0.298,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_10",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-11\",\"location\":\"杭州\",\"event\":\"参加会议\",\"budget\":2500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-11",
+        "location": "杭州",
+        "event": "参加会议",
+        "budget": 2500
+      },
+      "seconds": 0.283,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_11",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-12\",\"location\":\"南京\",\"event\":\"参加培训\",\"budget\":2600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-12",
+        "location": "南京",
+        "event": "参加培训",
+        "budget": 2600
+      },
+      "seconds": 0.302,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_12",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-13\",\"location\":\"苏州\",\"event\":\"参观展览\",\"budget\":2700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-13",
+        "location": "苏州",
+        "event": "参观展览",
+        "budget": 2700
+      },
+      "seconds": 0.325,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_13",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-14\",\"location\":\"厦门\",\"event\":\"拜访客户\",\"budget\":2800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-14",
+        "location": "厦门",
+        "event": "拜访客户",
+        "budget": 2800
+      },
+      "seconds": 0.299,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_14",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-15\",\"location\":\"青岛\",\"event\":\"参加讲座\",\"budget\":2900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-15",
+        "location": "青岛",
+        "event": "参加讲座",
+        "budget": 2900
+      },
+      "seconds": 0.299,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_15",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-16\",\"location\":\"长沙\",\"event\":\"参加会议\",\"budget\":3000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-16",
+        "location": "长沙",
+        "event": "参加会议",
+        "budget": 3000
+      },
+      "seconds": 0.306,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_16",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-17\",\"location\":\"合肥\",\"event\":\"参加培训\",\"budget\":3100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-17",
+        "location": "合肥",
+        "event": "参加培训",
+        "budget": 3100
+      },
+      "seconds": 0.302,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_17",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-18\",\"location\":\"宁波\",\"event\":\"参观展览\",\"budget\":3200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-18",
+        "location": "宁波",
+        "event": "参观展览",
+        "budget": 3200
+      },
+      "seconds": 0.32,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_18",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-19\",\"location\":\"昆明\",\"event\":\"拜访客户\",\"budget\":3300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-19",
+        "location": "昆明",
+        "event": "拜访客户",
+        "budget": 3300
+      },
+      "seconds": 0.319,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_19",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-20\",\"location\":\"福州\",\"event\":\"参加讲座\",\"budget\":3400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-20",
+        "location": "福州",
+        "event": "参加讲座",
+        "budget": 3400
+      },
+      "seconds": 0.308,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_20",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-21\",\"location\":\"杭州\",\"event\":\"参加会议\",\"budget\":3500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-21",
+        "location": "杭州",
+        "event": "参加会议",
+        "budget": 3500
+      },
+      "seconds": 0.295,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_21",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-22\",\"location\":\"南京\",\"event\":\"参加培训\",\"budget\":3600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-22",
+        "location": "南京",
+        "event": "参加培训",
+        "budget": 3600
+      },
+      "seconds": 0.283,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_22",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-23\",\"location\":\"苏州\",\"event\":\"参观展览\",\"budget\":3700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-23",
+        "location": "苏州",
+        "event": "参观展览",
+        "budget": 3700
+      },
+      "seconds": 0.327,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_23",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-24\",\"location\":\"厦门\",\"event\":\"拜访客户\",\"budget\":3800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-24",
+        "location": "厦门",
+        "event": "拜访客户",
+        "budget": 3800
+      },
+      "seconds": 0.32,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_24",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-25\",\"location\":\"青岛\",\"event\":\"参加讲座\",\"budget\":3900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-25",
+        "location": "青岛",
+        "event": "参加讲座",
+        "budget": 3900
+      },
+      "seconds": 0.314,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_25",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-26\",\"location\":\"长沙\",\"event\":\"参加会议\",\"budget\":4000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-26",
+        "location": "长沙",
+        "event": "参加会议",
+        "budget": 4000
+      },
+      "seconds": 0.285,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_26",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-27\",\"location\":\"合肥\",\"event\":\"参加培训\",\"budget\":4100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-27",
+        "location": "合肥",
+        "event": "参加培训",
+        "budget": 4100
+      },
+      "seconds": 0.294,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_27",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-28\",\"location\":\"宁波\",\"event\":\"参观展览\",\"budget\":4200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-28",
+        "location": "宁波",
+        "event": "参观展览",
+        "budget": 4200
+      },
+      "seconds": 0.307,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_28",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-01\",\"location\":\"昆明\",\"event\":\"拜访客户\",\"budget\":4300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-01",
+        "location": "昆明",
+        "event": "拜访客户",
+        "budget": 4300
+      },
+      "seconds": 0.326,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_0_29",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-02\",\"location\":\"福州\",\"event\":\"参加讲座\",\"budget\":4400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-02",
+        "location": "福州",
+        "event": "参加讲座",
+        "budget": 4400
+      },
+      "seconds": 0.301,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_00",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-01\",\"location\":\"南京\",\"event\":\"参加会议\",\"budget\":1500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-01",
+        "location": "南京",
+        "event": "参加会议",
+        "budget": 1500
+      },
+      "seconds": 0.313,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_01",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-02\",\"location\":\"苏州\",\"event\":\"参加培训\",\"budget\":1600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-02",
+        "location": "苏州",
+        "event": "参加培训",
+        "budget": 1600
+      },
+      "seconds": 0.316,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_02",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-03\",\"location\":\"厦门\",\"event\":\"参观展览\",\"budget\":1700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-03",
+        "location": "厦门",
+        "event": "参观展览",
+        "budget": 1700
+      },
+      "seconds": 0.327,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_03",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-04\",\"location\":\"青岛\",\"event\":\"拜访客户\",\"budget\":1800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-04",
+        "location": "青岛",
+        "event": "拜访客户",
+        "budget": 1800
+      },
+      "seconds": 0.302,
+      "tokens": 46,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_04",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-05\",\"location\":\"长沙\",\"event\":\"参加讲座\",\"budget\":1900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-05",
+        "location": "长沙",
+        "event": "参加讲座",
+        "budget": 1900
+      },
+      "seconds": 0.315,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_05",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-06\",\"location\":\"合肥\",\"event\":\"参加会议\",\"budget\":2000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-06",
+        "location": "合肥",
+        "event": "参加会议",
+        "budget": 2000
+      },
+      "seconds": 0.307,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_06",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-07\",\"location\":\"宁波\",\"event\":\"参加培训\",\"budget\":2100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-07",
+        "location": "宁波",
+        "event": "参加培训",
+        "budget": 2100
+      },
+      "seconds": 0.307,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_07",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-08\",\"location\":\"昆明\",\"event\":\"参观展览\",\"budget\":2200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-08",
+        "location": "昆明",
+        "event": "参观展览",
+        "budget": 2200
+      },
+      "seconds": 0.305,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_08",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-09\",\"location\":\"福州\",\"event\":\"拜访客户\",\"budget\":2300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-09",
+        "location": "福州",
+        "event": "拜访客户",
+        "budget": 2300
+      },
+      "seconds": 0.55,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_09",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-10\",\"location\":\"杭州\",\"event\":\"参加讲座\",\"budget\":2400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-10",
+        "location": "杭州",
+        "event": "参加讲座",
+        "budget": 2400
+      },
+      "seconds": 0.313,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_10",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-11\",\"location\":\"南京\",\"event\":\"参加会议\",\"budget\":2500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-11",
+        "location": "南京",
+        "event": "参加会议",
+        "budget": 2500
+      },
+      "seconds": 0.302,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_11",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-12\",\"location\":\"苏州\",\"event\":\"参加培训\",\"budget\":2600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-12",
+        "location": "苏州",
+        "event": "参加培训",
+        "budget": 2600
+      },
+      "seconds": 0.296,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_12",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-13\",\"location\":\"厦门\",\"event\":\"参观展览\",\"budget\":2700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-13",
+        "location": "厦门",
+        "event": "参观展览",
+        "budget": 2700
+      },
+      "seconds": 0.322,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_13",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-14\",\"location\":\"青岛\",\"event\":\"拜访客户\",\"budget\":2800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-14",
+        "location": "青岛",
+        "event": "拜访客户",
+        "budget": 2800
+      },
+      "seconds": 0.558,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_14",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-15\",\"location\":\"长沙\",\"event\":\"参加讲座\",\"budget\":2900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-15",
+        "location": "长沙",
+        "event": "参加讲座",
+        "budget": 2900
+      },
+      "seconds": 0.317,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_15",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-16\",\"location\":\"合肥\",\"event\":\"参加会议\",\"budget\":3000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-16",
+        "location": "合肥",
+        "event": "参加会议",
+        "budget": 3000
+      },
+      "seconds": 0.305,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_16",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-17\",\"location\":\"宁波\",\"event\":\"参加培训\",\"budget\":3100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-17",
+        "location": "宁波",
+        "event": "参加培训",
+        "budget": 3100
+      },
+      "seconds": 0.307,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_17",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-18\",\"location\":\"昆明\",\"event\":\"参观展览\",\"budget\":3200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-18",
+        "location": "昆明",
+        "event": "参观展览",
+        "budget": 3200
+      },
+      "seconds": 0.321,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_18",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-19\",\"location\":\"福州\",\"event\":\"拜访客户\",\"budget\":3300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-19",
+        "location": "福州",
+        "event": "拜访客户",
+        "budget": 3300
+      },
+      "seconds": 0.555,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_19",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-20\",\"location\":\"杭州\",\"event\":\"参加讲座\",\"budget\":3400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-20",
+        "location": "杭州",
+        "event": "参加讲座",
+        "budget": 3400
+      },
+      "seconds": 0.317,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_20",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":\"2026-11-21\",\"location\":\"南京\",\"event\":\"参加会议\",\"budget\":3500}",
+      "parsed": {
+        "person": "张三",
+        "date": "2026-11-21",
+        "location": "南京",
+        "event": "参加会议",
+        "budget": 3500
+      },
+      "seconds": 0.285,
+      "tokens": 44,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_21",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":\"2026-11-22\",\"location\":\"苏州\",\"event\":\"参加培训\",\"budget\":3600}",
+      "parsed": {
+        "person": "李四",
+        "date": "2026-11-22",
+        "location": "苏州",
+        "event": "参加培训",
+        "budget": 3600
+      },
+      "seconds": 0.316,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_22",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":\"2026-11-23\",\"location\":\"厦门\",\"event\":\"参观展览\",\"budget\":3700}",
+      "parsed": {
+        "person": "王五",
+        "date": "2026-11-23",
+        "location": "厦门",
+        "event": "参观展览",
+        "budget": 3700
+      },
+      "seconds": 0.318,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_23",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":\"2026-11-24\",\"location\":\"青岛\",\"event\":\"拜访客户\",\"budget\":3800}",
+      "parsed": {
+        "person": "赵六",
+        "date": "2026-11-24",
+        "location": "青岛",
+        "event": "拜访客户",
+        "budget": 3800
+      },
+      "seconds": 0.562,
+      "tokens": 89,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_24",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":\"2026-11-25\",\"location\":\"长沙\",\"event\":\"参加讲座\",\"budget\":3900}",
+      "parsed": {
+        "person": "陈七",
+        "date": "2026-11-25",
+        "location": "长沙",
+        "event": "参加讲座",
+        "budget": 3900
+      },
+      "seconds": 0.31,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_25",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":\"2026-11-26\",\"location\":\"合肥\",\"event\":\"参加会议\",\"budget\":4000}",
+      "parsed": {
+        "person": "刘八",
+        "date": "2026-11-26",
+        "location": "合肥",
+        "event": "参加会议",
+        "budget": 4000
+      },
+      "seconds": 0.307,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_26",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":\"2026-11-27\",\"location\":\"宁波\",\"event\":\"参加培训\",\"budget\":4100}",
+      "parsed": {
+        "person": "周九",
+        "date": "2026-11-27",
+        "location": "宁波",
+        "event": "参加培训",
+        "budget": 4100
+      },
+      "seconds": 0.306,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_27",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":\"2026-11-28\",\"location\":\"昆明\",\"event\":\"参观展览\",\"budget\":4200}",
+      "parsed": {
+        "person": "吴十",
+        "date": "2026-11-28",
+        "location": "昆明",
+        "event": "参观展览",
+        "budget": 4200
+      },
+      "seconds": 0.322,
+      "tokens": 47,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_28",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":\"2026-11-01\",\"location\":\"福州\",\"event\":\"拜访客户\",\"budget\":4300}",
+      "parsed": {
+        "person": "郑一",
+        "date": "2026-11-01",
+        "location": "福州",
+        "event": "拜访客户",
+        "budget": 4300
+      },
+      "seconds": 0.548,
+      "tokens": 87,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_1_29",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":\"2026-11-02\",\"location\":\"杭州\",\"event\":\"参加讲座\",\"budget\":4400}",
+      "parsed": {
+        "person": "孙二",
+        "date": "2026-11-02",
+        "location": "杭州",
+        "event": "参加讲座",
+        "budget": 4400
+      },
+      "seconds": 0.306,
+      "tokens": 45,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_2_00",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "张三",
+        "date": null,
+        "location": "苏州",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.415,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.465,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.452,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_01",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+      "parsed": {
+        "person": "李四",
+        "date": null,
+        "location": "厦门",
+        "event": "参加培训",
+        "budget": 900
+      },
+      "seconds": 0.864,
+      "tokens": 145,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.491,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.443,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_02",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":null,\"location\":\"青岛\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "王五",
+        "date": null,
+        "location": "青岛",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.596,
+      "tokens": 98,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_2_03",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":null,\"location\":\"长沙\",\"event\":\"拜访客户\",\"budget\":null}",
+      "parsed": {
+        "person": "赵六",
+        "date": null,
+        "location": "长沙",
+        "event": "拜访客户",
+        "budget": null
+      },
+      "seconds": 0.854,
+      "tokens": 143,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_2_04",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "陈七",
+        "date": null,
+        "location": "合肥",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.453,
+      "tokens": 73,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.494,
+          "tokens": 76,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.325,
+          "tokens": 55,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_05",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "刘八",
+        "date": null,
+        "location": "宁波",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.404,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.464,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.456,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_06",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":null,\"location\":\"昆明\",\"event\":\"参加培训\",\"budget\":null}",
+      "parsed": {
+        "person": "周九",
+        "date": null,
+        "location": "昆明",
+        "event": "参加培训",
+        "budget": null
+      },
+      "seconds": 1.068,
+      "tokens": 181,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_2_07",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":null,\"location\":\"福州\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "吴十",
+        "date": null,
+        "location": "福州",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.59,
+      "tokens": 97,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_2_08",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+      "parsed": {
+        "person": "郑一",
+        "date": null,
+        "location": "杭州",
+        "event": "拜访客户",
+        "budget": 900
+      },
+      "seconds": 0.404,
+      "tokens": 61,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.597,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.553,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_09",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "孙二",
+        "date": null,
+        "location": "南京",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.424,
+      "tokens": 65,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.5,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.453,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_10",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "张三",
+        "date": null,
+        "location": "苏州",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.402,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.491,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.437,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_11",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+      "parsed": {
+        "person": "李四",
+        "date": null,
+        "location": "厦门",
+        "event": "参加培训",
+        "budget": 900
+      },
+      "seconds": 0.877,
+      "tokens": 145,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.494,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.441,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_12",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":null,\"location\":\"青岛\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "王五",
+        "date": null,
+        "location": "青岛",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.596,
+      "tokens": 98,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_2_13",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":null,\"location\":\"长沙\",\"event\":\"拜访客户\",\"budget\":null}",
+      "parsed": {
+        "person": "赵六",
+        "date": null,
+        "location": "长沙",
+        "event": "拜访客户",
+        "budget": null
+      },
+      "seconds": 0.853,
+      "tokens": 143,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_2_14",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "陈七",
+        "date": null,
+        "location": "合肥",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.464,
+      "tokens": 73,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.492,
+          "tokens": 76,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.346,
+          "tokens": 55,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_15",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "刘八",
+        "date": null,
+        "location": "宁波",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.417,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.483,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.45,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_16",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":null,\"location\":\"昆明\",\"event\":\"参加培训\",\"budget\":null}",
+      "parsed": {
+        "person": "周九",
+        "date": null,
+        "location": "昆明",
+        "event": "参加培训",
+        "budget": null
+      },
+      "seconds": 1.08,
+      "tokens": 181,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_2_17",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":null,\"location\":\"福州\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "吴十",
+        "date": null,
+        "location": "福州",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.612,
+      "tokens": 97,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_2_18",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+      "parsed": {
+        "person": "郑一",
+        "date": null,
+        "location": "杭州",
+        "event": "拜访客户",
+        "budget": 900
+      },
+      "seconds": 0.401,
+      "tokens": 61,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.579,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.565,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_19",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "孙二",
+        "date": null,
+        "location": "南京",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.418,
+      "tokens": 65,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.496,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.468,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_20",
+    "first": {
+      "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "张三",
+        "date": null,
+        "location": "苏州",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.402,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.482,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"张三\",\"date\":null,\"location\":\"苏州\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "张三",
+            "date": null,
+            "location": "苏州",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.449,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_21",
+    "first": {
+      "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+      "parsed": {
+        "person": "李四",
+        "date": null,
+        "location": "厦门",
+        "event": "参加培训",
+        "budget": 900
+      },
+      "seconds": 0.879,
+      "tokens": 145,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.475,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"李四\",\"date\":null,\"location\":\"厦门\",\"event\":\"参加培训\",\"budget\":900}",
+          "parsed": {
+            "person": "李四",
+            "date": null,
+            "location": "厦门",
+            "event": "参加培训",
+            "budget": 900
+          },
+          "seconds": 0.464,
+          "tokens": 75,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_22",
+    "first": {
+      "raw": "{\"person\":\"王五\",\"date\":null,\"location\":\"青岛\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "王五",
+        "date": null,
+        "location": "青岛",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.621,
+      "tokens": 98,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_2_23",
+    "first": {
+      "raw": "{\"person\":\"赵六\",\"date\":null,\"location\":\"长沙\",\"event\":\"拜访客户\",\"budget\":null}",
+      "parsed": {
+        "person": "赵六",
+        "date": null,
+        "location": "长沙",
+        "event": "拜访客户",
+        "budget": null
+      },
+      "seconds": 0.875,
+      "tokens": 143,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_2_24",
+    "first": {
+      "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "陈七",
+        "date": null,
+        "location": "合肥",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.468,
+      "tokens": 73,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.492,
+          "tokens": 76,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"陈七\",\"date\":null,\"location\":\"合肥\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "陈七",
+            "date": null,
+            "location": "合肥",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.346,
+          "tokens": 55,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_25",
+    "first": {
+      "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+      "parsed": {
+        "person": "刘八",
+        "date": null,
+        "location": "宁波",
+        "event": "参加会议",
+        "budget": 900
+      },
+      "seconds": 0.426,
+      "tokens": 64,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.467,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"刘八\",\"date\":null,\"location\":\"宁波\",\"event\":\"参加会议\",\"budget\":900}",
+          "parsed": {
+            "person": "刘八",
+            "date": null,
+            "location": "宁波",
+            "event": "参加会议",
+            "budget": 900
+          },
+          "seconds": 0.449,
+          "tokens": 74,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_26",
+    "first": {
+      "raw": "{\"person\":\"周九\",\"date\":null,\"location\":\"昆明\",\"event\":\"参加培训\",\"budget\":null}",
+      "parsed": {
+        "person": "周九",
+        "date": null,
+        "location": "昆明",
+        "event": "参加培训",
+        "budget": null
+      },
+      "seconds": 1.07,
+      "tokens": 181,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_2_27",
+    "first": {
+      "raw": "{\"person\":\"吴十\",\"date\":null,\"location\":\"福州\",\"event\":\"参观展览\",\"budget\":null}",
+      "parsed": {
+        "person": "吴十",
+        "date": null,
+        "location": "福州",
+        "event": "参观展览",
+        "budget": null
+      },
+      "seconds": 0.608,
+      "tokens": 97,
+      "done_reason": "stop"
+    },
+    "errors": [],
+    "repairs": []
+  },
+  {
+    "round": 3,
+    "id": "train_2_28",
+    "first": {
+      "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+      "parsed": {
+        "person": "郑一",
+        "date": null,
+        "location": "杭州",
+        "event": "拜访客户",
+        "budget": 900
+      },
+      "seconds": 0.404,
+      "tokens": 61,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.599,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"郑一\",\"date\":null,\"location\":\"杭州\",\"event\":\"拜访客户\",\"budget\":900}",
+          "parsed": {
+            "person": "郑一",
+            "date": null,
+            "location": "杭州",
+            "event": "拜访客户",
+            "budget": 900
+          },
+          "seconds": 0.562,
+          "tokens": 94,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "id": "train_2_29",
+    "first": {
+      "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+      "parsed": {
+        "person": "孙二",
+        "date": null,
+        "location": "南京",
+        "event": "参加讲座",
+        "budget": 900
+      },
+      "seconds": 0.429,
+      "tokens": 65,
+      "done_reason": "stop"
+    },
+    "errors": [
+      "budget: 实际 900，标准 None"
+    ],
+    "repairs": [
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.497,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      },
+      {
+        "response": {
+          "raw": "{\"person\":\"孙二\",\"date\":null,\"location\":\"南京\",\"event\":\"参加讲座\",\"budget\":900}",
+          "parsed": {
+            "person": "孙二",
+            "date": null,
+            "location": "南京",
+            "event": "参加讲座",
+            "budget": 900
+          },
+          "seconds": 0.465,
+          "tokens": 77,
+          "done_reason": "stop"
+        },
+        "errors": [
+          "budget: 实际 900，标准 None"
+        ]
+      }
+    ]
+  }
+]

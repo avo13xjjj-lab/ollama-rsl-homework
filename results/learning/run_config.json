@@ -1,0 +1,13 @@
+{
+  "model": "gpt-oss:20b",
+  "url": "http://127.0.0.1:11434",
+  "rounds": 3,
+  "learning_samples": 90,
+  "validation_samples": 30,
+  "num_ctx": 4096,
+  "temperature": 0,
+  "seed": 42,
+  "think": "low",
+  "max_repairs": 2,
+  "learning_target": "experience rules"
+}
